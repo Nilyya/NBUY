@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\bin\Debug\net6.0\Proje05_MetinselMetodlar.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\bin\Debug\net6.0\Proje05_MetinselMetodlar.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\bin\Debug\net6.0\Proje05_MetinselMetodlar.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\bin\Debug\net6.0\Proje05_MetinselMetodlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\bin\Debug\net6.0\Proje05_MetinselMetodlar.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\obj\Debug\net6.0\Proje05_MetinselMetodlar.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\obj\Debug\net6.0\Proje05_MetinselMetodlar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\obj\Debug\net6.0\Proje05_MetinselMetodlar.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\obj\Debug\net6.0\Proje05_MetinselMetodlar.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\obj\Debug\net6.0\Proje05_MetinselMetodlar.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\obj\Debug\net6.0\Proje05_MetinselMetodlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\obj\Debug\net6.0\refint\Proje05_MetinselMetodlar.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\obj\Debug\net6.0\Proje05_MetinselMetodlar.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\obj\Debug\net6.0\Proje05_MetinselMetodlar.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje05_MetinselMetodlar\obj\Debug\net6.0\ref\Proje05_MetinselMetodlar.dll
