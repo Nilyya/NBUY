@@ -51,16 +51,27 @@ class Program
         // bool sonuc = metin.Contains("wissen");
         // Console.WriteLine(sonuc);
 
-        string adres = "Selami Ali mh. Can sk. No:6 Kadıköy/İstanbul";
+        //string adres = "Selami Ali mh. Can sk. No:6 Kadıköy/İstanbul";
         // bool sonuc = adres.EndsWith("İstanbul");
         // bool sonuc2 = adres.StartsWith("İstnbul");
         // Console.WriteLine(sonuc);
 
         //adres içindeki c harfi kaçıncı sıradadır.
-        string aranacakifade = "c";
-        int sirano = adres.tolower().ındexof(aranacakifade.tolower());
-        console.writeline($"c harfi {adres} içinde,{sirano}.sıradadır.");
-       
-    
+        //string aranacakifade = "c";
+        //int sirano = adres.tolower().ındexof(aranacakifade.tolower());
+        // console.writeline($"c harfi {adres} içinde,{sirano}.sıradadır.");
+
+        //string metin = "Wissen Akademie";
+        //Console.WriteLine($"Metnin ilk hali:{metin})";
+        //Console.WriteLine($"Akademie ifadesi silindikten sonraki hali:{metin.Remove(7)}"};
+
+
+        string urunAd = "IPhone 13 Pro";
+        //iphone-13-pro
+        //string sonuc = (urunAd.Replace(" ","-")).ToLower();
+        string sonuc = urunAd.ToLower().Replace("", "-");
+        Console.WriteLine(sonuc);
+        string sonuc2 = urunAd.Replace("IPhone", "Samsung");
+        Console.WriteLine(sonuc2);
     }
 }

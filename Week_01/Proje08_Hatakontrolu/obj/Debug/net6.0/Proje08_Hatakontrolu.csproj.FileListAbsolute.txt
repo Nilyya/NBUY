@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\bin\Debug\net6.0\Proje08_Hatakontrolu.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\bin\Debug\net6.0\Proje08_Hatakontrolu.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\bin\Debug\net6.0\Proje08_Hatakontrolu.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\bin\Debug\net6.0\Proje08_Hatakontrolu.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\bin\Debug\net6.0\Proje08_Hatakontrolu.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\obj\Debug\net6.0\Proje08_Hatakontrolu.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\obj\Debug\net6.0\Proje08_Hatakontrolu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\obj\Debug\net6.0\Proje08_Hatakontrolu.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\obj\Debug\net6.0\Proje08_Hatakontrolu.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\obj\Debug\net6.0\Proje08_Hatakontrolu.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\obj\Debug\net6.0\Proje08_Hatakontrolu.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\obj\Debug\net6.0\refint\Proje08_Hatakontrolu.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\obj\Debug\net6.0\Proje08_Hatakontrolu.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\obj\Debug\net6.0\Proje08_Hatakontrolu.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_01\Proje08_Hatakontrolu\obj\Debug\net6.0\ref\Proje08_Hatakontrolu.dll
