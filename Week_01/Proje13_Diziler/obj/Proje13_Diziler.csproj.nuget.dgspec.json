@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje12_While\\Proje12_While.csproj": {}
+    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\Proje13_Diziler.csproj": {}
   },
   "projects": {
-    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje12_While\\Proje12_While.csproj": {
+    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\Proje13_Diziler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje12_While\\Proje12_While.csproj",
-        "projectName": "Proje12_While",
-        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje12_While\\Proje12_While.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\Proje13_Diziler.csproj",
+        "projectName": "Proje13_Diziler",
+        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\Proje13_Diziler.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje12_While\\obj\\",
+        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje13_Diziler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
