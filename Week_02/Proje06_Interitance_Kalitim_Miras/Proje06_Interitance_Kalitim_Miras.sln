@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proje06_Interitance_Kalitim_Miras", "Proje06_Interitance_Kalitim_Miras.csproj", "{33E0084C-9909-429A-8E23-295918429DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33E0084C-9909-429A-8E23-295918429DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E0084C-9909-429A-8E23-295918429DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E0084C-9909-429A-8E23-295918429DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E0084C-9909-429A-8E23-295918429DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68D8F656-B764-409D-B5B5-95AE23AF0E92}
+	EndGlobalSection
+EndGlobal

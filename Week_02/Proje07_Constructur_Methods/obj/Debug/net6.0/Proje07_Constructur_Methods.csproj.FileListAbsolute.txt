@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\bin\Debug\net6.0\Proje07_Constructur_Methods.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\bin\Debug\net6.0\Proje07_Constructur_Methods.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\bin\Debug\net6.0\Proje07_Constructur_Methods.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\bin\Debug\net6.0\Proje07_Constructur_Methods.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\bin\Debug\net6.0\Proje07_Constructur_Methods.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\obj\Debug\net6.0\Proje07_Constructur_Methods.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\obj\Debug\net6.0\Proje07_Constructur_Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\obj\Debug\net6.0\Proje07_Constructur_Methods.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\obj\Debug\net6.0\Proje07_Constructur_Methods.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\obj\Debug\net6.0\Proje07_Constructur_Methods.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\obj\Debug\net6.0\Proje07_Constructur_Methods.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\obj\Debug\net6.0\refint\Proje07_Constructur_Methods.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\obj\Debug\net6.0\Proje07_Constructur_Methods.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\obj\Debug\net6.0\Proje07_Constructur_Methods.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\Proje07_Constructur_Methods\obj\Debug\net6.0\ref\Proje07_Constructur_Methods.dll
