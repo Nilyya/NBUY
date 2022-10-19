@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box 01</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+                     
+        }
+        .header{
+            background-color: #FF74B1;
+            padding-left: 20px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+        }
+        .header h1{
+            color: #FFD6EC;
+            font-size: 60px;
+        }
+        .content{
+            display: flex;
+            margin-top: 10px;
+            height: calc(100vh - 210px);
+            flex-direction: row-reverse;
+        }
+        .content-left{
+            width: 25%;
+                                 
+        }
+        .content-left ul{
+            list-style-type: none;
+            padding: 0;
+            margin-top: 12px;
+            
+        }
+        .content-left ul li {
+            padding: 10px 15px;
+            color: #fff;
+            background-color: #FF74B1;
+            margin-bottom: 8px;
+        }
+        .content-right{
+            width: 75%;
+            padding-right: 15px;
+        }
+        .content-right h1{
+            color: #7895B2;
+        }
+        .footer{
+            height: 60px;
+            color: #fff;
+            background: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+           <h1>Frontend Dersleri</h1> 
+        </div>
+        <div class="content">
+        <div class="content-left">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>    
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        <div class="content-right">
+            <h1>Uygulama Geliştirici Eğitimi</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed maxime vel atque recusandae a maiores praesentium ipsa error et ex nisi corrupti facere veritatis, quibusdam quasi cum corporis cumque inventore.</p>
+        </div>
+    </div>
+        <div class="footer">
+            Bu sayfa BAU Wissen Akademie öğrencileri tarafından tasarlanmıştır
+        </div>
+    </div>
+</body>
+</html>
