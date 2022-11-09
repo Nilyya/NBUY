@@ -1,0 +1,14 @@
+USE SampleDp
+
+CREATE TABLE Bolumler(
+	id INT NOT NULL,
+	ad NVARCHAR(30) NULL,
+)
+
+DROP TABLE Bolumler
+
+CREATE TABLE Bolumler(
+	id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	ad NVARCHAR(30),
+	aciklama NVARCHAR(MAX)
+)

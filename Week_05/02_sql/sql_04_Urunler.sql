@@ -1,0 +1,9 @@
+USE SampleDp
+
+CREATE TABLE Urunler(
+	id INT NOT NULL IDENTITY(1,1),	
+	ad NVARCHAR(50) NOT NULL,
+	stokMiktarý INT NOT NULL,
+	fiyat MONEY NOT NULL,
+	PRIMARY KEY(id)	
+	)

@@ -1,0 +1,15 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\bin\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.exe
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\bin\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.deps.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\bin\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\bin\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\bin\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\obj\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\obj\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\obj\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\obj\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\obj\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\obj\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\obj\Debug\net6.0\refint\Proje02_VerilerinCekilmesi--use-program-main.dll
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\obj\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\obj\Debug\net6.0\Proje02_VerilerinCekilmesi--use-program-main.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_06\DotNetCore-VeriTabanıİslemleri\Proje02_VerilerinCekilmesi--use-program-main\obj\Debug\net6.0\ref\Proje02_VerilerinCekilmesi--use-program-main.dll

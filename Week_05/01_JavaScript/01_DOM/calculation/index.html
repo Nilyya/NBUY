@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+<style>
+  .c
+</style>
+
+<body>
+  <div class="calculator">
+    <div class="card">
+      <form name="form1">
+        <input id="calc" type="text" name="answer">
+        <div>
+        <input class="is" type="button" value="+" onclick="form1.answer.value += '+' ">
+        <input class="is" type="button" value="-" onclick="form1.answer.value += '-' ">
+        <input class="is" type="button" value="*" onclick="form1.answer.value += '*' ">
+        <input class="is" type="button" value="/" onclick="form1.answer.value += '/' ">
+      </div>
+      <div>
+        <input class="is" type="button" value="7" onclick="form1.answer.value += '7' ">
+        <input class="is" type="button" value="8" onclick="form1.answer.value += '8' ">
+        <input class="is" type="button" value="9" onclick="form1.answer.value += '9' ">
+      </div>
+      <div>
+        <input class="is" type="button" value="4" onclick="form1.answer.value += '4' ">
+        <input class="is" type="button" value="5" onclick="form1.answer.value += '5' ">
+        <input class="is" type="button" value="6" onclick="form1.answer.value += '6' ">
+      </div>
+      <div>
+        <input class="is" type="button" value="1" onclick="form1.answer.value += '1' ">
+        <input class="is" type="button" value="2" onclick="form1.answer.value += '2' ">
+        <input class="is" type="button" value="3" onclick="form1.answer.value += '3' ">
+      </div>
+      <div>
+        <input class="is" type="button" value="0" onclick="form1.answer.value += '0' ">
+        <input class="is" type="button" value="." onclick="form1.answer.value += '.' ">
+        <input class="sil" type="button" value="AC" onclick="form1.answer.value = 'AC'" id="clear">      
+        <input class="esit" type="button" value="=" onclick="form1.answer.value = eval(form1.answer.value) ">
+      </form>
+    </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
