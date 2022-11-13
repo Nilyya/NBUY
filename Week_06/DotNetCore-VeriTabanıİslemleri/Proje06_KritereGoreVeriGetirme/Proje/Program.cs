@@ -1,4 +1,4 @@
-﻿using System.Data.SqlClient;
+using System.Data.SqlClient;
 using Proje.BusinessLayer;
 using Proje.DataAccessLayer;
 using Proje.DataAccessLayer.Entities;
@@ -48,7 +48,6 @@ class Program
             Console.WriteLine("3-Search product by id");
             Console.WriteLine("4-Filter product by category id");
             Console.WriteLine("5-Filter product by category name");
-
         }
         Console.Write("Seçiminizi yapınız: ");
         int secim = int.Parse(Console.ReadLine());
@@ -63,7 +62,7 @@ class Program
                 ProductList(new SqliteProductDAL());
             }
         }
-        if (secim == 2)
+        else if (secim == 2)
         {
             if (dbType == 1)
             {
@@ -84,41 +83,83 @@ class Program
             {
 
             }
-
         }
-        else if(secim==4){
-            if (dbtype==1)
+        else if (secim == 4)
+        {
+            if (dbType == 1)
             {
-         ProductFilterByCategoryId(IProductDAL productDal)       
-            }else{
+                ProductsFilterByCategoryId(new SqlProductDAL());
+            }
+            else
+            {
 
             }
         }
+        else if (secim == 5)
+        {
+            if (dbType == 1)
+            {
+                ProductsFilterByCategory(new SqlProductDAL());
+            }
+            else
+            {
+
+            }
+        }
+    }
+    static void ProductsFilterByCategory(IProductDAL productDal)
+    {
+        var productManager = new ProductManager(productDal);
+        Console.Write("Enter Category Name: ");
+        string catName = Console.ReadLine();
+        List<Product> products = productManager.GetProductsByCategory(catName);
+        if (products.Count > 0)
+        {
+            foreach (var product in products)
+            {
+                Console.WriteLine($"Id: {product.Id}, Name: {product.Name}, Price: {product.Price}, Stock: {product.Stock}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Aradığınız kategoride ürün yoktur!");
+        }
 
     }
-    static void ProductFilterByCategoryId(IProductDAL productDAL)
+    static void ProductsFilterByCategoryId(IProductDAL productDal)
     {
-        var productManager =new ProductManager(productDal);
-        System.Console.WriteLine("Enter Category Id");
-        int catId=int.Parse(Console.ReadLine());
-        var products=productManager.GetAllProducts();
-          foreach (var product in products)
+        var productManager = new ProductManager(productDal);
+        Console.Write("Enter Category Id: ");
+        int catId = int.Parse(Console.ReadLine());
+        List<Product> products = productManager.GetProductsByCategoryId(catId);
+        if (products.Count > 0)
         {
-            Console.WriteLine($"Id: {product.Id}, Name: {product.Name}, Price: {product.Price}, Stock: {product.Stock}");
+            foreach (var product in products)
+            {
+                Console.WriteLine($"Id: {product.Id}, Name: {product.Name}, Price: {product.Price}, Stock: {product.Stock}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Aradığınız kategoride ürün yoktur!");
         }
 
     }
     static void ProductSearch(IProductDAL productDAL)
     {
         var productManager = new ProductManager(productDAL);
-        Console.WriteLine("Enter id:");
+        Console.Write("Enter id: ");
         int id = int.Parse(Console.ReadLine());
         Product product = productManager.GetByIdProduct(id);
         if (product != null)
         {
-            System.Console.WriteLine($"Id:{product.Id},Name: {product.Name},Price:{product.Price},Stock:{product.Stock}");
+            Console.WriteLine($"Id: {product.Id}, Name: {product.Name}, Price: {product.Price}, Stock: {product.Stock}");
         }
-        Console.WriteLine($"Id:{product.Id},Name: {product.Name},Price:{product.Price},Stock:{product.Stock}");
+        else
+        {
+            Console.WriteLine("No product!");
+        }
+
         Console.ReadLine();
     }
     static void ProductList(IProductDAL productDAL)
@@ -140,3 +181,4 @@ class Program
         }
     }
 }
+
