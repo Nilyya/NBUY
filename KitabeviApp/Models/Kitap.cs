@@ -15,5 +15,8 @@ namespace KitabeviApp.Models
         public Kategori Kategori { get; set; }
         public int YazarId { get; set; }
         public Yazar Yazar { get; set; }
+        public string Ozet { get; set; }
+        public bool AnaSayfa { get; set; }
+
     }
 }

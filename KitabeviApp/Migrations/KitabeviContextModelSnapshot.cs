@@ -68,11 +68,17 @@ namespace KitabeviApp.Migrations
                     b.Property<string>("Ad")
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("AnaSayfa")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("BasimYili")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("KategoriId")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("Ozet")
+                        .HasColumnType("TEXT");
 
                     b.Property<int>("SayfaSayisi")
                         .HasColumnType("INTEGER");
@@ -93,8 +99,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 1,
                             Ad = "İnsanlar",
+                            AnaSayfa = true,
                             BasimYili = 2021,
                             KategoriId = 2,
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum perspiciatis reprehenderit minus minima dolore magnam quia. Vero minima, explicabo minus laboriosam modi voluptates nemo mollitia ut sunt eaque temporibus placeat!",
                             SayfaSayisi = 330,
                             YazarId = 1
                         },
@@ -102,8 +110,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 2,
                             Ad = "Zamanı Durdurmanın Yolları",
+                            AnaSayfa = true,
                             BasimYili = 2021,
                             KategoriId = 1,
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum perspiciatis reprehenderit minus minima dolore magnam quia. Vero minima, explicabo minus laboriosam modi voluptates nemo mollitia ut sunt eaque temporibus placeat!",
                             SayfaSayisi = 370,
                             YazarId = 1
                         },
@@ -111,8 +121,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 3,
                             Ad = "Demir Ökçe",
+                            AnaSayfa = true,
                             BasimYili = 2017,
                             KategoriId = 2,
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum perspiciatis reprehenderit minus minima dolore magnam quia. Vero minima, explicabo minus laboriosam modi voluptates nemo mollitia ut sunt eaque temporibus placeat!",
                             SayfaSayisi = 400,
                             YazarId = 4
                         },
@@ -120,8 +132,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 4,
                             Ad = "Huzursuzluk",
+                            AnaSayfa = true,
                             BasimYili = 2018,
                             KategoriId = 2,
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum perspiciatis reprehenderit minus minima dolore magnam quia. Vero minima, explicabo minus laboriosam modi voluptates nemo mollitia ut sunt eaque temporibus placeat!",
                             SayfaSayisi = 330,
                             YazarId = 9
                         },
@@ -129,8 +143,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 5,
                             Ad = "Serenad",
+                            AnaSayfa = false,
                             BasimYili = 2020,
                             KategoriId = 2,
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum perspiciatis reprehenderit minus minima dolore magnam quia. Vero minima, explicabo minus laboriosam modi voluptates nemo mollitia ut sunt eaque temporibus placeat!",
                             SayfaSayisi = 300,
                             YazarId = 9
                         },
@@ -138,8 +154,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 6,
                             Ad = "19",
+                            AnaSayfa = false,
                             BasimYili = 2016,
                             KategoriId = 2,
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum perspiciatis reprehenderit minus minima dolore magnam quia. Vero minima, explicabo minus laboriosam modi voluptates nemo mollitia ut sunt eaque temporibus placeat!",
                             SayfaSayisi = 380,
                             YazarId = 6
                         },
@@ -147,8 +165,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 7,
                             Ad = "C# Programlama Dili",
+                            AnaSayfa = false,
                             BasimYili = 2011,
                             KategoriId = 3,
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum perspiciatis reprehenderit minus minima dolore magnam quia. Vero minima, explicabo minus laboriosam modi voluptates nemo mollitia ut sunt eaque temporibus placeat!",
                             SayfaSayisi = 730,
                             YazarId = 7
                         },
@@ -156,8 +176,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 8,
                             Ad = "React Uygulama Geliştirme",
+                            AnaSayfa = false,
                             BasimYili = 2021,
                             KategoriId = 3,
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum perspiciatis reprehenderit minus minima dolore magnam quia. Vero minima, explicabo minus laboriosam modi voluptates nemo mollitia ut sunt eaque temporibus placeat!",
                             SayfaSayisi = 530,
                             YazarId = 3
                         },
@@ -165,8 +187,10 @@ namespace KitabeviApp.Migrations
                         {
                             Id = 9,
                             Ad = "İnsan Ömrünü Neyle Geçirmeli?",
+                            AnaSayfa = false,
                             BasimYili = 2021,
                             KategoriId = 2,
+                            Ozet = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum perspiciatis reprehenderit minus minima dolore magnam quia. Vero minima, explicabo minus laboriosam modi voluptates nemo mollitia ut sunt eaque temporibus placeat!",
                             SayfaSayisi = 330,
                             YazarId = 8
                         });

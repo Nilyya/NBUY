@@ -16298,6 +16298,11 @@
   "RootNamespace": "KitabeviApp",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\KitabeviApp\\Views\\Home\\Detay.cshtml",
+      "TargetPath": "Views\\Home\\Detay.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\KitabeviApp\\Views\\Home\\KitapListesi.cshtml",
       "TargetPath": "Views\\Home\\KitapListesi.cshtml",
       "FileKind": "mvc"
@@ -16310,6 +16315,11 @@
     {
       "FilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\KitabeviApp\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\KitabeviApp\\Views\\Shared\\_Kitap.cshtml",
+      "TargetPath": "Views\\Shared\\_Kitap.cshtml",
       "FileKind": "mvc"
     },
     {

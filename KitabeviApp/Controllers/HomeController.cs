@@ -32,4 +32,13 @@ public class HomeController : Controller
             .ToList();
         return View(kitaplar);
     }
+public IActionResult Detay(int id)
+{
+    var kitap= context
+    .Kitaplar
+    .Where(k=>k.Id==id)
+    .FirstOrDefault();
+    return View(kitap);
+}
+
 }
