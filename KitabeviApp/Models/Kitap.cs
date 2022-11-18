@@ -17,6 +17,5 @@ namespace KitabeviApp.Models
         public Yazar Yazar { get; set; }
         public string Ozet { get; set; }
         public bool AnaSayfa { get; set; }
-
     }
 }

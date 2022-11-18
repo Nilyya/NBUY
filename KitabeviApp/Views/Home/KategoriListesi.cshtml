@@ -5,11 +5,22 @@
 
 <h1 class="display-6">Kategori Listesi</h1>
 <hr>
-        @foreach (var k in Model)
-    {
+<table class="table table-sm table-bordered">
+    <thead>
         <tr>
-            <td>@k.Id</td>
-            <td><a asp-controller="Home" asp-action="KitapListesi" asp-route-id=@k.Id>@k.Ad</a></td>
-            <td>@k.Aciklama</td>
+            <th>Id</th>
+            <th>Kategori Adı</th>
+            <th>Açıklama</th>
         </tr>
-    }
+    </thead>
+    <tbody>
+        @foreach (var k in Model)
+        {
+            <tr>
+                <td>@k.Id</td>
+                <td><a asp-controller="Home" asp-action="KitapListesi" asp-route-id=@k.Id >@k.Ad</a></td>
+                <td>@k.Aciklama</td>
+            </tr>
+        }
+    </tbody>
+</table>
