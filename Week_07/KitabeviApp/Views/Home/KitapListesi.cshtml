@@ -1,0 +1,17 @@
+@model List<Kitap>
+@{
+    ViewData["Title"] = "Kitap Listesi";
+}
+
+<h1 class="display-6">Kitap Listesi</h1>
+<hr>
+<div class="container">
+    <div class="row">
+        @foreach (var k in Model)
+        {
+            <div class="col-4" border-1>
+                <p>@k.Ad</p>
+            </div>
+        }
+    </div>
+</div>

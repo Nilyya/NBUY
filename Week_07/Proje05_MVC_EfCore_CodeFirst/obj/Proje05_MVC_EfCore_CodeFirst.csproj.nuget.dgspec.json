@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Sony\\Documents\\GitHub\\hoca\\NBUY\\Week_07\\Proje05_MVC_EfCore_CodeFirst\\Proje05_MVC_EfCore_CodeFirst.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Sony\\Documents\\GitHub\\hoca\\NBUY\\Week_07\\Proje05_MVC_EfCore_CodeFirst\\Proje05_MVC_EfCore_CodeFirst.csproj",
         "packagesPath": "C:\\Users\\Sony\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Sony\\Documents\\GitHub\\hoca\\NBUY\\Week_07\\Proje05_MVC_EfCore_CodeFirst\\obj\\",
+=======
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_07\\Proje05_MVC_EfCore_CodeFirst\\Proje05_MVC_EfCore_CodeFirst.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_07\\Proje05_MVC_EfCore_CodeFirst\\Proje05_MVC_EfCore_CodeFirst.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_07\\Proje05_MVC_EfCore_CodeFirst\\Proje05_MVC_EfCore_CodeFirst.csproj",
+        "projectName": "Proje05_MVC_EfCore_CodeFirst",
+        "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_07\\Proje05_MVC_EfCore_CodeFirst\\Proje05_MVC_EfCore_CodeFirst.csproj",
+        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_07\\Proje05_MVC_EfCore_CodeFirst\\obj\\",
+>>>>>>> 5b591cfcc1e17ae33f109feebabf9333325fb5e6
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
