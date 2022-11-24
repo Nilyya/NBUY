@@ -3,7 +3,11 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+<<<<<<< HEAD
     <Nullable>disable</Nullable>
+=======
+    <Nullable>enable</Nullable>
+>>>>>>> c0621aa9c5e8d09601c0ee027596a8c7fceb3252
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="../KitabeviApp.Data/KitabeviApp.Data.csproj" />

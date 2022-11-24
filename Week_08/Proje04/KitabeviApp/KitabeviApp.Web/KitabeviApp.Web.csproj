@@ -5,7 +5,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="../KitabeviApp.Data/KitabeviApp.Data.csproj" />
     <ProjectReference Include="../KitabeviApp.Entity/KitabeviApp.Entity.csproj" />
+=======
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.11"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.11"/>
+    <ProjectReference Include="../KitabeviApp.Business/KitabeviApp.Business.csproj" />
+>>>>>>> c0621aa9c5e8d09601c0ee027596a8c7fceb3252
   </ItemGroup>
 </Project>
