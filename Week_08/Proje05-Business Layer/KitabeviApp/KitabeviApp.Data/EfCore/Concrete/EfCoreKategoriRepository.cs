@@ -47,5 +47,10 @@ namespace KitabeviApp.Data.EfCore.Concrete
                 return context.Kategoriler.Find(id);
             }
         }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> ecb69cfe09571123693c5d325c073fc4c2813469
     }
 }

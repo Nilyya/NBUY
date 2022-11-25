@@ -5,10 +5,21 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="../KitabeviApp.Entity/KitabeviApp.Entity.csproj"/>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.0"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0"/>
+=======
+    <ProjectReference Include="../KitabeviApp.Entity/KitabeviApp.Entity.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+>>>>>>> ecb69cfe09571123693c5d325c073fc4c2813469
   </ItemGroup>
 </Project>

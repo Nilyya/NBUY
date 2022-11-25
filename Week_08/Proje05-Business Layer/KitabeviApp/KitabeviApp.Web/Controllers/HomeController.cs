@@ -45,7 +45,11 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult KategoriEkle(Kategori kategori)
     {
+<<<<<<< HEAD
         var kategoriManager=new KategoriManager();
+=======
+        var kategoriManager = new KategoriManager();
+>>>>>>> ecb69cfe09571123693c5d325c073fc4c2813469
         kategoriManager.KategoriEkle(kategori);
         return RedirectToAction("KategoriListesi");
     }

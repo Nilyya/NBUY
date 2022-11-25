@@ -1,4 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -12,3 +15,24 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.11"/>
   </ItemGroup>
 </Project>
+=======
+
+>>>>>>> ecb69cfe09571123693c5d325c073fc4c2813469
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../KitabeviApp.Entity/KitabeviApp.Entity.csproj"/>
+  </ItemGroup>
+<<<<<<< HEAD
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.11"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.11"/>
+  </ItemGroup>
+</Project>
+=======
+</Project>
+>>>>>>> c0621aa9c5e8d09601c0ee027596a8c7fceb3252
+>>>>>>> ecb69cfe09571123693c5d325c073fc4c2813469
