@@ -25,6 +25,7 @@ namespace ShoppingApp.Web.Areas.Admin.Models.Dtos
         public IFormFile ImageFile { get; set; }
         [DisplayName("AnaSayfa")]
         public bool Ishome { get; set; }
+        public bool IsHome { get; internal set; }
         [DisplayName("Onaylı ürün")]
         public bool IsApproved { get; set; }
         [DisplayName("Kategoriler")]

@@ -20,7 +20,12 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
         {
             get { return _context as ShopAppContext;  }
         }
-                
+
+        public Task CreateProductAsync(Product product, int[] selectedCategoryIds)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<List<Product>> GetHomePageProductsAsync()
         {
             return await ShopAppContext
@@ -55,13 +60,44 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
 
         }
 
-        public async Task<List<Product>> GetProductsWithCategories()
+        public async Task<List<Product>> GetProductsWithCategories(int id)
         {
             return await ShopAppContext
                 .Products
                 .Include(p => p.ProductCategories)
                 .ThenInclude(pc => pc.Category)
                 .ToListAsync();
+        }
+
+        public Task<List<Product>> GetProductsWithCategories()
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<List<Product>> GetProductWithCategories()
+       {
+        return await ShopAppContext
+        .Products
+        .Include(p=>p.ProductCategories)
+        .ThenInclude(pc=>pc.Category)
+        .ToListAsync();
+       }
+public async Task<Product> GetProductWithCategories(int id)
+{
+    return await ShopAppContext
+    .Products
+    .Where(p=>p.Id==id)
+    .Include(p=>p.ProductCategories)
+    .ThenInclude(pc=>pc.Category)
+    .FirstOrDefaultAsync();
+    }
+        public Task UpdateProductAsync(Product product, int[] selectedCategoryIds)
+        {
+            Product newProduct = await ShopAppContext
+                .Products
+                .Include(p => p.ProductCategories)
+                .FirstOrDefaultAsync(p=>p.Id==product.Id);
+            return null;
         }
     }
 }

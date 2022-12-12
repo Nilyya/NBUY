@@ -55,5 +55,7 @@ namespace ShoppingApp.Core
             return (url);
 
         }
+
+   
     }
 }

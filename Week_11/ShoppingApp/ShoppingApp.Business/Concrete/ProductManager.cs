@@ -60,13 +60,30 @@ namespace ShoppingApp.Business.Concrete
 
         public async Task<Product> GetProductDetailsByUrlAsync(string productUrl)
         {
-           return await _unitOfWork.Products.GetProductDetailsByUrlAsync(productUrl);
+            return await _unitOfWork.Products.GetProductDetailsByUrlAsync(productUrl);
         }
 
         public async Task<List<Product>> GetProductsWithCategories()
         {
             return await _unitOfWork.Products.GetProductsWithCategories();
         }
+
+        public async Task CreateProductAsync(Product product, int[] selectedCategoryIds)
+        {
+            await _unitOfWork.Products.CreateProductAsync(product, selectedCategoryIds);
+        }
+
+        public async Task<Product> GetProductWithCategories(int id)
+        {
+            return await _unitOfWork.Products.GetProductWithCategories(id);
+        }
+
+        public void UpdateProductAsync(Product product, int[] selectedCategoryIds)
+        {
+            throw new NotImplementedException();
+        }
+
+
         #endregion
     }
 }

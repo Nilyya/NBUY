@@ -14,8 +14,9 @@ namespace ShoppingApp.Data.Abstract
         Task<List<Product>> GetProductsByCategoryAsync(string category);
         Task<List<Product>> GetHomePageProductsAsync();
         Task<Product> GetProductDetailsByUrlAsync(string productUrl);
+        Task<List<Product>> GetProductsWithCategories(int id);
+        Task<Product> GetProductWithCategories(int id);
         Task<List<Product>> GetProductsWithCategories();
-
-
+        Task CreateProductAsync(Product product, int[] selectedCategoryIds);
     }
 }
