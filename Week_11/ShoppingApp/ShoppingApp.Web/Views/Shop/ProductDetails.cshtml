@@ -1,0 +1,47 @@
+﻿@using ShoppingApp.Web.Models.Dtos
+@model ProductDetailsDto
+
+<div class="card mb-3 mt-5">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="/images/@Model.ImageUrl" class="img-fluid rounded-start m-5 alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body m-5">
+                <h4 class="card-title">@Model.Name</h4>
+                <div>
+                    @foreach (var category in Model.Categories)
+                    {
+                        <div class="text-warning">@category.Name</div>
+                    }
+                </div>
+                <h5 class="card-title text-primary">@Model.Price</h5>
+                <h5 class="card-title text-success">@Model.Description</h5>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+@*<div>@Model.Id</div>
+<div>@Model.Name</div>
+<div>@Model.Price</div>
+<div>@Model.ImageUrl</div>
+<div>@Model.Url</div>
+<div>@Model.Description</div>
+KATEGORİLER
+<div>
+    @foreach (var category in Model.Categories)
+    {
+            <div>@category.Name</div>
+    }
+</div>*@
+
+
+

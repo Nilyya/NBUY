@@ -1,0 +1,29 @@
+********************07-12-2022*************************
+1- Referanslarýmý verdik. web-business, business-data, data-entity (dependencies references diyerek verdik.)
+2- Entity-abstract ve concrete klasörlerini luþturup entitylerimzi yazdýk. IEntityBase interfaace ve Product Category ProductCategory classlarýný oluþturup IENtityBae interfaceden miras aldýrdýk.
+3- Data da abstraxct concrete config klasörü ve concrete-efcore ve efcore-context ve repository oluþturduk daha sonra Microsoft.EntityFrameworkCore.Sqlite ve Microsoft.EntityFrameworkCore.Design paketini data katmanýmýza ekledik.
+4- Data-efcore-context'e ShopAppContext clasý oluþturduk. ve DbContexten mmiras aldk.
+5-  ShopAppContext classýna kodalrý yaazdýk.
+6- Data-Config de classlarýmýzý oluþturduk. (Map benzeri)
+7- Configarionslarýmýzý data-concrete-efcore-context-shopappcontextde çaðýrdýrk.
+8- Web de migrations oluþturduk. ancak Microsoft.EntityFrameworkCore.Sqlite ve Microsoft.EntityFrameworkCore.Design paketini paketlerini de web e de ekledik.
+9- data-abstract Irepository oluþturduk.
+10- data-concretede-repositort efcoregenericrepositort classýmýzý oluþturduk ve daha sonra luþturacaðýmýz repositortleri genericten miras alacaz.
+11- Data abstract da IUNitofwork yaptýk. ve concrete de classýný yaptýk.
+12- business abstract ve concrete oluþrurduk.
+13-business abstract ICategoryService yaptýk
+14- busnes -concrete managerlerimizi yazdýk.
+15- web-program.cs de builder serviceslerimizi ekledik.
+16-web- web homexontroller index metodunu yazdýk.
+17- web-view home indexte kodlarý yazdýk.
+18- web-model-dtos klasörü açtýk. ve dtolarýmýzý oluþturduk.
+19- Anasayfada gösterelecek ürünler için productservice metot ekleyip concreteini yaýyorzu.
+20-GetHomePageProductsAsync() metodunu home controllerda yazdýk. ana sayfa ürünleri için
+
+***************************08-12-2022************************
+1-IMage url için web-models-dtos-productdto ýmageurl ekledik. Home controlle ekledik. data-config-productconfig de resimleri düenledik. config de deðiþiklik yaptýðýmýz için migration ve db mizi silip yeniden oluþturduk. ve wev-view-productPartiala resim koymak için düzenleme yaptýk.
+2-Web- ViewComponent-CategoriesViewComponent oluþruruldu kategorileri listelemek için luþturduk. viewni sahred categories default olarak yaptýk. Home indeximizde compýnent þeklinde kategoriler çaðýrdýk.
+3-program cs de route ekledik.
+4-view-show ve product list ekledik. ürün listemizi getirdik. program cs de asp- controller....silip href ekledik.
+5- ürün detaylarýný url bilgisi ile gösteremk için dto ve shop controlleimize url ekledik. productpartialimize. detay controllðnü girdikten sonra program cs de routeuzu yazdýk.
+6- shopcontrollerde ürün detaylarýný url'e göre getirmek için business abstractýma GetProductDetailsByUrlAsync metodunu ekliyorum. diðer gerekli yerlere de ekliyorum (repositorylerime)ve shopcýntrolden çaðýrýyorum
