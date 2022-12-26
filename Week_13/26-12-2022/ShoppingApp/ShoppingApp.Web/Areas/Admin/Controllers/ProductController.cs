@@ -135,5 +135,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             _productService.Delete(product);
             return RedirectToAction("Index");
         }
+
+
     }
 }

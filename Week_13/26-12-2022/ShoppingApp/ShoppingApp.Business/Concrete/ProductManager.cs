@@ -92,6 +92,11 @@ namespace ShoppingApp.Business.Concrete
         {
             await _unitOfWork.Products.UpdateIsApprovedAsync(product);
         }
+
+        public async Task<List<Product>> GetSearchResultsAsync(string searchString,bool isApproved)
+        {
+            return await _unitOfWork.Products.GetSearchResultsAsync (searchString);
+        }
         #endregion
     }
 }

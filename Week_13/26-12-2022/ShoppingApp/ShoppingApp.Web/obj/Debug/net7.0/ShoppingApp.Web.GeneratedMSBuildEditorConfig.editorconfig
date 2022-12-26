@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Areas/Admin/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Areas/Admin/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,6 +66,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Areas/Admin/Views/Shared/_AdminSideBarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pblNpZGVCYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Areas/Admin/Views/Shared/_DataTablesScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9EYXRhVGFibGVzU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Areas/Admin/Views/Shared/_DataTablesStylesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9EYXRhVGFibGVzU3R5bGVzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Areas/Admin/Views/Shared/_Layout.cshtml]
@@ -144,6 +156,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Views/Home/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Views/Shared/Components/Categories/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmllc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -152,12 +168,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Views/Shared/_NoProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob1Byb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Views/Shared/_OrderDetailPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9PcmRlckRldGFpbFBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Views/Shared/_ProductPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Views/Shared/_Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Views/Shared/_ValidationScriptsPartial.cshtml]

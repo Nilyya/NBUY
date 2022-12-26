@@ -1,11 +1,25 @@
 ﻿@model CategoryListDto
 <hr />
-<a 
+<div class="row">
+    <div class="col-6">
+        <a 
     class="btn btn-outline-primary"
     asp-area="Admin"
     asp-controller="Category"
     asp-action="Create"
 >Yeni Kategori Ekle</a>
+    </div>
+    <div class="col-6 justify-content-end">
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <form class="d-flex">
+      <input class="form-control" type="search" placeholder="Ara" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Ara</button>
+    </form>
+  </div>
+</nav>
+    </div>
+</div>
 <hr />
 <table class="table table-responsive table-bordered">
     <thead>

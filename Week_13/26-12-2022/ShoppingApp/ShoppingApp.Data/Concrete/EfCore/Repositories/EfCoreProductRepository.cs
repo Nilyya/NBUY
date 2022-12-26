@@ -56,11 +56,10 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
 
         public async Task<List<Product>> GetProductsByCategoryAsync(string category)
         {
-            var products= ShopAppContext.Products.AsQueryable();
+            var products= ShopAppContext.Products.Where(p => p.IsApproved).AsQueryable();
             if (category != null)
             {
-                products = products
-                    .Where(p => p.IsApproved)
+                products = products                   
                     .Include(p => p.ProductCategories)
                     .ThenInclude(pc => pc.Category)
                     .Where(p => p.ProductCategories.Any(pc => pc.Category.Url == category));
@@ -118,6 +117,20 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
             ShopAppContext.Update(newProduct);
             await ShopAppContext.SaveChangesAsync();
             
+        }
+
+        public async Task<List<Product>> GetSearchResultsAsync(string searchString)
+        {
+            searchString=searchString.ToLower();
+            var result = ShopAppContext.Products.AsQueryable();
+            if (isApproved)
+            {
+                return 
+            }
+            return await ShopAppContext
+                .Products
+                .Where(p=>p.IsApproved && (p.Name.ToLower().Contains(searchString) ||p.Description.ToLower().Contains(searchString)))
+                .ToListAsync();
         }
     }
 }

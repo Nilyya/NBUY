@@ -8,12 +8,13 @@ using ShoppingApp.Data.Concrete.EfCore.Contexts;
 using ShoppingApp.Entity.Concrete.Identity;
 using ShoppingApp.Web.EmailServices.Abstract;
 using ShoppingApp.Web.EmailServices.Concrete;
+using ShoppingApp.Web.Extansion;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<ShopAppContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("SqliteConnection")));
+builder.Services.AddDbContext<ShopAppContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("MsSqlConnection")));
 
 builder.Services.AddIdentity<User, Role>()
     .AddEntityFrameworkStores<ShopAppContext>()
@@ -109,4 +110,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
+app.UpdateDatabase().Run();
+
+

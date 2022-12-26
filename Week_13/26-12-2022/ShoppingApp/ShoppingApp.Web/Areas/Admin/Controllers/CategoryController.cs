@@ -1,12 +1,15 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ShoppingApp.Business.Abstract;
+using ShoppingApp.Business.Concrete;
 using ShoppingApp.Core;
 using ShoppingApp.Entity.Concrete;
 using ShoppingApp.Web.Areas.Admin.Models.Dtos;
+using ShoppingApp.Web.Models.Dtos;
 
 namespace ShoppingApp.Web.Areas.Admin.Controllers
 {
+  
     [Authorize]
     [Area("Admin")]
     public class CategoryController : Controller
@@ -105,6 +108,7 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             }
             _categoryService.Delete(category);
             return RedirectToAction("Index");
-        }
+        }    
+
     }
 }
