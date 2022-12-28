@@ -68,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pblNpZGVCYXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Areas/Admin/Views/Shared/_CategorySearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9DYXRlZ29yeVNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Areas/Admin/Views/Shared/_DataTablesScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9EYXRhVGFibGVzU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -82,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Areas/Admin/Views/Shared/_ProductDeletePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Qcm9kdWN0RGVsZXRlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Areas/Admin/Views/Shared/_ProductSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Qcm9kdWN0U2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/SABAH/Documents/GitHub/NBUY/Week_13/26-12-2022/ShoppingApp/ShoppingApp.Web/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]

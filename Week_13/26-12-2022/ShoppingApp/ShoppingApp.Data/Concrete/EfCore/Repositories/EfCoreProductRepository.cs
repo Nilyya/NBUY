@@ -12,13 +12,13 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
 {
     public class EfCoreProductRepository : EfCoreGenericRepository<Product>, IProductRepository
     {
-        public EfCoreProductRepository(ShopAppContext context):base(context)
+        public EfCoreProductRepository(ShopAppContext context) : base(context)
         {
 
         }
         private ShopAppContext ShopAppContext
         {
-            get { return _context as ShopAppContext;  }
+            get { return _context as ShopAppContext; }
         }
 
         public async Task CreateProductAsync(Product product, int[] selectedCategoryIds)
@@ -56,10 +56,13 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
 
         public async Task<List<Product>> GetProductsByCategoryAsync(string category)
         {
-            var products= ShopAppContext.Products.Where(p => p.IsApproved).AsQueryable();
+            var products = ShopAppContext
+                .Products
+                .Where(p => p.IsApproved)
+                .AsQueryable();
             if (category != null)
             {
-                products = products                   
+                products = products
                     .Include(p => p.ProductCategories)
                     .ThenInclude(pc => pc.Category)
                     .Where(p => p.ProductCategories.Any(pc => pc.Category.Url == category));
@@ -106,7 +109,7 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
         {
             Product newProduct = await ShopAppContext
                 .Products
-                .Include(p=> p.ProductCategories)
+                .Include(p => p.ProductCategories)
                 .FirstOrDefaultAsync(p => p.Id == product.Id);
             newProduct.ProductCategories = selectedCategoryIds
                 .Select(catId => new ProductCategory
@@ -116,21 +119,20 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
                 }).ToList();
             ShopAppContext.Update(newProduct);
             await ShopAppContext.SaveChangesAsync();
-            
+
         }
 
-        public async Task<List<Product>> GetSearchResultsAsync(string searchString)
+        public async Task<List<Product>> GetSearchResultsAsync(string searchString, bool isApproved=true)
         {
-            searchString=searchString.ToLower();
+            searchString = searchString.ToLower();
             var result = ShopAppContext.Products.AsQueryable();
             if (isApproved)
             {
-                return 
+                return await result.Where(p => p.IsApproved && (p.Name.ToLower().Contains(searchString) || p.Description.ToLower().Contains(searchString))).ToListAsync();
+                
             }
-            return await ShopAppContext
-                .Products
-                .Where(p=>p.IsApproved && (p.Name.ToLower().Contains(searchString) ||p.Description.ToLower().Contains(searchString)))
-                .ToListAsync();
+            return await result.Where(p=>p.Name.ToLower().Contains(searchString) || p.Description.ToLower().Contains(searchString)).ToListAsync();
+
         }
     }
 }

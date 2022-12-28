@@ -8,7 +8,7 @@ using ShoppingApp.Data.Concrete.EfCore.Contexts;
 using ShoppingApp.Entity.Concrete.Identity;
 using ShoppingApp.Web.EmailServices.Abstract;
 using ShoppingApp.Web.EmailServices.Concrete;
-using ShoppingApp.Web.Extansion;
+using ShoppingApp.Web.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -111,5 +111,3 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.UpdateDatabase().Run();
-
-

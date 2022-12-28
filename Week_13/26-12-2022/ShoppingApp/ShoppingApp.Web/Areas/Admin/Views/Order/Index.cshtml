@@ -1,17 +1,18 @@
 ﻿@using ShoppingApp.Web.Models.Dtos
 @model List<OrderListDto>
+
 <table id="myDataTable" class="table table-bordered table-striped table-sm">
     <thead>
-        <tr>
+        <tr class="bg-danger text-white">
             <th>Müşteri</th>
-            <th>Şipariş No</th>
+            <th>Sipariş No</th>
             <th>Tarih</th>
             <th>Tutar</th>
-            <th>Sipariş</th>
+            <th>Sipariş Detayı</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var orderListDto in Model)
+         @foreach (var orderListDto in Model)
         {
             <tr>
                 <td>@orderListDto.FirstName @orderListDto.LastName</td>

@@ -1,9 +1,17 @@
 ﻿@model List<ProductListDto>
 <hr />
-<a class="btn btn-outline-primary"
-   asp-area="Admin"
-   asp-controller="Product"
-   asp-action="Create">Yeni Ürün Ekle</a>
+<div class="row">
+    <div class="col">
+    <a class="btn btn-outline-primary"
+       asp-area="Admin"
+       asp-controller="Product"
+       asp-action="Create">Yeni Ürün Ekle</a>
+    </div>
+       <div class="col">
+        @await Html.PartialAsync("_ProductSearch")
+       </div>
+</div>
+  
 <hr />
 <table class="table table-responsive table-bordered">
     <thead>

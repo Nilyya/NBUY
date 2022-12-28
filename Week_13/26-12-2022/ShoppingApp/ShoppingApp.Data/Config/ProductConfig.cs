@@ -38,8 +38,9 @@ namespace ShoppingApp.Data.Config
 
             builder.Property(p => p.DateAdded)
                 .HasDefaultValueSql("getdate()");
-            /*  .HasDefaultValueSql("date('now')");*///Sqlite
-                                                     //.HasDefaultValueSql("getdate()"); (Bu sql server ile çalışırken kullanma şeklimiz)
+            /*.HasDefaultValueSql("date('now')")*/
+            ;//Sqlite
+                                                   //.HasDefaultValueSql("getdate()"); (Bu sql server ile çalışırken kullanma şeklimiz)
 
             builder.ToTable("Products");
 

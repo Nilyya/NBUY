@@ -281,7 +281,7 @@ namespace ShoppingApp.Web.Controllers
         public async Task<IActionResult> GetOrders()
         {
             var userId = _userManager.GetUserId(User);
-            var orders = await _orderManager.GetOrders(userId);
+            List<Order> orders = await _orderManager.GetOrders(userId);
             List<OrderListDto> orderListDtos = new List<OrderListDto>();
             OrderListDto orderListDto;
             foreach (var order in orders)
