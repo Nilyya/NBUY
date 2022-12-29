@@ -9,7 +9,7 @@ namespace DiariesFoodApp.Data.Concrete.EfCore.Repositories
 {
     public class EfCoreCategoryRepository : EfCoreGenericRepository<Category>, ICategoryRepository
     {
-        public EfCoreCategoryRepository(ShopAppContext context) : base(context)
+        public EfCoreCategoryRepository(DiariesContext context) : base(context)
         {
           
         }

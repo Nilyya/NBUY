@@ -1,0 +1,5 @@
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\DiariesFoodApp.Business.csproj.AssemblyReference.cache
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\DiariesFoodApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\DiariesFoodApp.Business.AssemblyInfoInputs.cache
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\DiariesFoodApp.Business.AssemblyInfo.cs
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\DiariesFoodApp.Business.csproj.CoreCompileInputs.cache

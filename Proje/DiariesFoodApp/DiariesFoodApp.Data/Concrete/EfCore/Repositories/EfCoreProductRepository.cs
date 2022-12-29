@@ -9,13 +9,13 @@ namespace DiariesFoodApp.Data.Concrete.EfCore.Repositories
 {
     public class EfCoreProductRepository : EfCoreGenericRepository<Product>, IProductRepository
     {
-        public EfCoreProductRepository(ShopAppContext context) : base(context)
+        public EfCoreProductRepository(DiariesContext context) : base(context)
         {
 
         }
-        private ShopAppContext ShopAppContext
+        private DiariesAppContext ShopAppContext
         {
-            get { return _context as ShopAppContext; }
+            get { return _context as DiariesAppContext; }
         }
 
         public async Task<List<Product>> GetHomePageProductsAsync()

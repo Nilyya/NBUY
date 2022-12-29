@@ -1,0 +1,12 @@
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Entity\bin\Debug\net7.0\DiariesFoodApp.Entity.deps.json
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Entity\bin\Debug\net7.0\DiariesFoodApp.Entity.dll
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Entity\bin\Debug\net7.0\DiariesFoodApp.Entity.pdb
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Entity\obj\Debug\net7.0\DiariesFoodApp.Entity.csproj.AssemblyReference.cache
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Entity\obj\Debug\net7.0\DiariesFoodApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Entity\obj\Debug\net7.0\DiariesFoodApp.Entity.AssemblyInfoInputs.cache
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Entity\obj\Debug\net7.0\DiariesFoodApp.Entity.AssemblyInfo.cs
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Entity\obj\Debug\net7.0\DiariesFoodApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Entity\obj\Debug\net7.0\DiariesFoodApp.Entity.dll
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Entity\obj\Debug\net7.0\refint\DiariesFoodApp.Entity.dll
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Entity\obj\Debug\net7.0\DiariesFoodApp.Entity.pdb
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Entity\obj\Debug\net7.0\ref\DiariesFoodApp.Entity.dll
