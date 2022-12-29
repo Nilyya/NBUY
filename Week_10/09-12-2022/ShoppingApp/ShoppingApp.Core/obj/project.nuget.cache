@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XV7/1nI/HsupaMZxl52n5mMJlIWkANfWlyYVYO1gwazKtAfaivX+clv4B4FEXkbranv2+e1qNSf0hI6q+5dTPw==",
+  "dgSpecHash": "4MPoP33d/dhEcnAblATS2QTTFegc+cuQveDstO2sk/v2JuS5UxCZ9fQn28GOEPXK1FdkyzLjxdIdth1kEVnLdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\09-12-2022\\ShoppingApp1\\ShoppingApp.Core\\ShoppingApp.Core.csproj",
+  "projectFilePath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\09-12-2022\\ShoppingApp\\ShoppingApp.Core\\ShoppingApp.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
