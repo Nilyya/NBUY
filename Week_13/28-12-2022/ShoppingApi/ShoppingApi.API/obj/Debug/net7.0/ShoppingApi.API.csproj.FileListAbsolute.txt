@@ -339,3 +339,4 @@ C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\28-12-2022\ShoppingApi\ShoppingApi.
 C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\28-12-2022\ShoppingApi\ShoppingApi.API\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\28-12-2022\ShoppingApi\ShoppingApi.API\bin\Debug\net7.0\ShoppingApi.Core.dll
 C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\28-12-2022\ShoppingApi\ShoppingApi.API\bin\Debug\net7.0\ShoppingApi.Core.pdb
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_13\28-12-2022\ShoppingApi\ShoppingApi.API\bin\Debug\net7.0\ShoppingApi.API.staticwebassets.runtime.json
