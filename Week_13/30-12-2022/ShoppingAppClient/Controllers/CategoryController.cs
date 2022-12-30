@@ -1,10 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using ShoppingAppClient.Models;
 
@@ -14,32 +8,18 @@ namespace ShoppingAppClient.Controllers
     {
         public async Task<IActionResult> Index()
         {
-            var categories = new List<CategoryViewModel>();
+            //Api'mizdan kategori listesini getiren bir istekte bulunacak. http://localhost:5200/api/categories
+            var kategoriler = new List<CategoryViewModel>();
             using (var httpClient = new HttpClient())
             {
-                using (var reponse = await httpClient.GetAsync("http://localhost:5200/api/Categories"))
+                using (var response = await httpClient.GetAsync("http://localhost:5200/api/categories/"))
                 {
-                    string apiResponse = await reponse.Content.ReadAsStringAsync();
-                    categories = JsonConvert.DeserializeObject<List<CategoryViewModel>>(apiResponse);
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    kategoriler = JsonConvert.DeserializeObject<List<CategoryViewModel>>(apiResponse);
                 }
             }
-            return View(categories);
+            return View(kategoriler);
         }
-
-        public async Task<IActionResult> GetProductsByCategory(int id)
-        {
-            var urunler = new List<ProductViewModel>();
-            using (var httpClient = new HttpClient())
-            {
-                using (var response = await httpClient.GetAsync($"http://localhost:5200/api/Categories/{id}"))
-                {
-                    string stringResponse = await response.Content.ReadAsStringAsync();
-                    urunler = JsonConvert.DeserializeObject<List<ProductViewModel>>(stringResponse);
-                }
-            }
-            return RedirectToAction("Index", "Home", urunler);
-        }
-
         public IActionResult Create()
         {
             return View();

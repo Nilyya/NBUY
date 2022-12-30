@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.Entity\\ShoppingApi.Entity.csproj": {}
+    "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.Entity\\ShoppingApi.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.Entity\\ShoppingApi.Entity.csproj": {
+    "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.Entity\\ShoppingApi.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.Entity\\ShoppingApi.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.Entity\\ShoppingApi.Entity.csproj",
         "projectName": "ShoppingApi.Entity",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.Entity\\ShoppingApi.Entity.csproj",
+        "projectPath": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.Entity\\ShoppingApi.Entity.csproj",
         "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.Entity\\obj\\",
+        "outputPath": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",

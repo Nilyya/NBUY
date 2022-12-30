@@ -1,25 +1,25 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ShoppingApi.API.EmailServices.Abstract;
-using ShoppingApi.API.EmailServices.Concrete;
-using ShoppingApi.API.Extensions;
 using ShoppingApi.Business.Abstract;
 using ShoppingApi.Business.Concrete;
 using ShoppingApi.Data.Abstract;
-using ShoppingApi.Data.Concrete;
 using ShoppingApi.Data.Concrete.EfCore.Contexts;
+using ShoppingApi.Data.Concrete;
 using ShoppingApi.Entity.Concrete.Identity;
+using ShoppingApi.API.EmailServices.Abstract;
+using ShoppingApi.API.EmailServices.Concrete;
+using ShoppingApi.API.Extensions;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ShopAppContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("MsSqlConnection")));
+//builder.Services.AddDbContext<ShopAppContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("SomeeSqlConnection")));
 
 builder.Services.AddIdentity<User, Role>()
     .AddEntityFrameworkStores<ShopAppContext>()
@@ -30,12 +30,12 @@ builder.Services.Configure<IdentityOptions>(options =>
     #region PasswordSettings
     options.Password.RequireDigit = true;
     options.Password.RequireLowercase = true;
-    options.Password.RequireUppercase = true;
-    options.Password.RequiredLength = 6;
-    options.Password.RequireNonAlphanumeric = true;
+    options.Password.RequireUppercase = true;//
+    options.Password.RequiredLength = 6; 
+    options.Password.RequireNonAlphanumeric = true; 
     #endregion
     #region LoginSettings
-    options.Lockout.MaxFailedAccessAttempts = 3;
+    options.Lockout.MaxFailedAccessAttempts = 3; 
     options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromSeconds(15);
     #endregion
     #region UserSettings
@@ -79,7 +79,6 @@ builder.Services.AddScoped<IEmailSender, SmtpEmailSender>(x => new SmtpEmailSend
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -89,6 +88,13 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
+//app.UseFileServer(new FileServerOptions
+//{
+//    FileProvider = new PhysicalFileProvider(
+//        Path.Combine(Directory.GetCurrentDirectory(),"wwwroot")),
+//        RequestPath="/wwwroot",
+//        EnableDefaultFiles=true
+//});
 
 app.UseAuthorization();
 

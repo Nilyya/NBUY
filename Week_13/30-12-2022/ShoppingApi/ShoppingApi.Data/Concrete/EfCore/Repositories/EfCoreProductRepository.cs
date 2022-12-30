@@ -1,10 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ShoppingApi.Core;
 using ShoppingApi.Data.Abstract;
 using ShoppingApi.Data.Concrete.EfCore.Contexts;
 using ShoppingApi.Entity.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -117,6 +119,12 @@ namespace ShoppingApi.Data.Concrete.EfCore.Repositories
                     ProductId = newProduct.Id,
                     CategoryId = catId
                 }).ToList();
+            newProduct.Id= product.Id;
+            newProduct.Name = product.Name;
+            newProduct.Description = product.Description;
+            newProduct.Price = product.Price;
+            newProduct.ImageUrl = product.ImageUrl;
+            newProduct.Url = product.Url;
             ShopAppContext.Update(newProduct);
             await ShopAppContext.SaveChangesAsync();
 
@@ -125,11 +133,11 @@ namespace ShoppingApi.Data.Concrete.EfCore.Repositories
         public async Task<List<Product>> GetSearchResultsAsync(bool? isApproved, bool? isHome, string searchString)
         {
             var result = ShopAppContext.Products.AsQueryable();
-            if (isApproved != null)
+            if (isApproved!=null)
             {
                 result = result.Where(p => p.IsApproved == isApproved).AsQueryable();
             }
-            if (isHome != null)
+            if (isHome!=null)
             {
                 result = result.Where(p => p.IsHome == isHome).AsQueryable();
             }
@@ -137,7 +145,6 @@ namespace ShoppingApi.Data.Concrete.EfCore.Repositories
             {
                 result = result.Where(p => p.Name.ToLower().Contains(searchString.ToLower()) || p.Description.ToLower().Contains(searchString.ToLower())).AsQueryable();
             }
-
             return await result.ToListAsync();
         }
     }

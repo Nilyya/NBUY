@@ -1,4 +1,5 @@
 ﻿using DiariesFoodApp.Data.Abstract;
+using DiariesFoodApp.Entity.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;

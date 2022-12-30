@@ -171,11 +171,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.Core\\ShoppingApi.Core.csproj",
+      "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.Core\\ShoppingApi.Core.csproj",
       "projectName": "ShoppingApi.Core",
-      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.Core\\ShoppingApi.Core.csproj",
+      "projectPath": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.Core\\ShoppingApi.Core.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.Core\\obj\\",
+      "outputPath": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",

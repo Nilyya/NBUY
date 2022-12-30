@@ -13,6 +13,7 @@ namespace DiariesFoodApp.Entity.Concrete
         public string Name { get; set; }
         public string Clue { get; set; }
         public string Recipe { get; set; }
+        public string Preparation { get; set; }
         public string PreparationTime { get; set; }
         public string BakingTime { get; set; }
         public string Service { get; set;}

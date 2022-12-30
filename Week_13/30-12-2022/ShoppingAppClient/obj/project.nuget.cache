@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XDauTKB+wyREtTAuPpwd/z+cvcqU7olPYEBngRPdZMR9t/q8JANmXF/DRABkoM0B72UmdBHwZ20b3+hw6HTD9Q==",
+  "dgSpecHash": "Xv04wTydGj//WeD4rwcerJCG3Y1sI+pWSTMBcWApMhsiKVZGNEpiIzetTRNUCrHQgOahKJYJ7XNXfWyemjN/Pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingAppClient\\ShoppingAppClient.csproj",
+  "projectFilePath": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingAppClient\\ShoppingAppClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SABAH\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",

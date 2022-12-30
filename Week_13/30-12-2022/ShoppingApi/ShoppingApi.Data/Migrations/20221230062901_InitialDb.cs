@@ -333,8 +333,8 @@ namespace ShoppingApi.Data.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Description", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "c93297b3-7a92-4a2f-9e9a-6f3076d9776c", null, "Admin rolü", "Admin", "ADMIN" },
-                    { "eb7eace9-edca-4cd6-bbd4-3247dfc9e7bc", null, "User rolü", "User", "USER" }
+                    { "3e70c1d1-ef07-4637-85a4-c14313e0c581", null, "User rolü", "User", "USER" },
+                    { "a0751579-500e-4fa7-90c6-3b45ef333612", null, "Admin rolü", "Admin", "ADMIN" }
                 });
 
             migrationBuilder.InsertData(
@@ -342,8 +342,8 @@ namespace ShoppingApi.Data.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "Address", "City", "ConcurrencyStamp", "DateOfBirth", "Email", "EmailConfirmed", "FirstName", "Gender", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "4b51a871-5844-40ce-b03d-12ab92b8ad01", 0, "Çek cd. Senet sk. Fatura ap.", "İstanbul", "ad9a1110-1499-4d61-b30c-fb5e1ca4c841", new DateTime(1998, 5, 19, 0, 0, 0, 0, DateTimeKind.Unspecified), "admin@gmail.com", true, "Deniz", "Kadın", "Admin", false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEJHv5wwqzVz+wdKe5fxF3LU3J3B5kmHBwVUR9rBHBc37aPo54GhqZC7HKQS3a2nNkg==", "5555555555", false, "a16ad908-75d3-49f8-99b9-4e185f00b9e9", false, "admin" },
-                    { "e903dec2-8f82-4c93-8398-99d786617658", 0, "Akasya cd. Orkide sk. Gül ap.", "İzmir", "745150d5-6435-4c76-b6e3-874a59f9155c", new DateTime(1985, 10, 29, 0, 0, 0, 0, DateTimeKind.Unspecified), "user@gmail.com", true, "Kemal", "Erkek", "User", false, null, "USER@GMAIL.COM", "USER", "AQAAAAIAAYagAAAAEJtnF0i3VRezBilWvoQY8LTM/Ys3AH8r7bIsWlQ6BLrG8Z++n4YFG90guC52YMpPeg==", "4444444444", false, "3a9a883a-c54e-4d7a-8177-0cca875b63c1", false, "user" }
+                    { "938fb51d-758c-45a2-aea7-9fd652a260db", 0, "Akasya cd. Orkide sk. Gül ap.", "İzmir", "727b9ff3-0c27-49ca-a3ea-cf9b5c20ce19", new DateTime(1985, 10, 29, 0, 0, 0, 0, DateTimeKind.Unspecified), "user@gmail.com", true, "Kemal", "Erkek", "User", false, null, "USER@GMAIL.COM", "USER", "AQAAAAIAAYagAAAAEBTCjS3TBxdgSG+OS+C912WeLRAjIThemINegTtWU1CO7aT779e/eizv4kz1qZ/N1Q==", "4444444444", false, "52d8c404-7a82-40ab-98a2-402c75085aad", false, "user" },
+                    { "e8dbb4f1-57a2-4525-a51d-368c2fa92458", 0, "Çek cd. Senet sk. Fatura ap.", "İstanbul", "4cfd8314-9e3a-49d7-9993-4d3e0c74b5a2", new DateTime(1998, 5, 19, 0, 0, 0, 0, DateTimeKind.Unspecified), "admin@gmail.com", true, "Deniz", "Kadın", "Admin", false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEFLl5tkok3dRKSLrez+jdkzmF0TlaNwn1ft1n5jz3NYRtaIB/3kARFuaaP8aw3mmBA==", "5555555555", false, "019cedc6-7fdb-404d-b232-645481960905", false, "admin" }
                 });
 
             migrationBuilder.InsertData(
@@ -381,8 +381,8 @@ namespace ShoppingApi.Data.Migrations
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[,]
                 {
-                    { "c93297b3-7a92-4a2f-9e9a-6f3076d9776c", "4b51a871-5844-40ce-b03d-12ab92b8ad01" },
-                    { "eb7eace9-edca-4cd6-bbd4-3247dfc9e7bc", "e903dec2-8f82-4c93-8398-99d786617658" }
+                    { "3e70c1d1-ef07-4637-85a4-c14313e0c581", "938fb51d-758c-45a2-aea7-9fd652a260db" },
+                    { "a0751579-500e-4fa7-90c6-3b45ef333612", "e8dbb4f1-57a2-4525-a51d-368c2fa92458" }
                 });
 
             migrationBuilder.InsertData(
@@ -390,8 +390,8 @@ namespace ShoppingApi.Data.Migrations
                 columns: new[] { "Id", "UserId" },
                 values: new object[,]
                 {
-                    { 1, "4b51a871-5844-40ce-b03d-12ab92b8ad01" },
-                    { 2, "e903dec2-8f82-4c93-8398-99d786617658" }
+                    { 1, "e8dbb4f1-57a2-4525-a51d-368c2fa92458" },
+                    { 2, "938fb51d-758c-45a2-aea7-9fd652a260db" }
                 });
 
             migrationBuilder.InsertData(

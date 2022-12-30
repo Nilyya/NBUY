@@ -2,15 +2,16 @@
 @{
     ViewData["Title"] = "Home Page";
 }
+
 <h1 class="display-6">Ürün Listesi</h1>
 <table class="table table-sm table-bordered">
     <thead>
         <tr>
             <th>Id</th>
             <th>Resim</th>
-            <th>Adı</th>
+            <th>Ürün Adı</th>
             <th>Fiyatı</th>
-            <th>Detaylar</th>
+            <th>Açıklama</th>
         </tr>
     </thead>
     <tbody>
@@ -21,7 +22,13 @@
                 <td><img src="http://localhost:5200/images/@product.ImageUrl" width="50"/></td>
                 <td>@product.Name</td>
                 <td>@($"{product.Price:C0}")</td>
-                <td><a class="btn btn-sm btn-warning" asp-action="Details" asp-route-id=@product.Id>Detay</a></td>
+                <td>
+                    <a class="btn btn-sm btn-info"
+                        asp-controller="Home"
+                        asp-action="GetProduct"
+                        asp-route-id="@product.Id"
+                    >Detay</a>
+                </td>
             </tr>
         }
     </tbody>

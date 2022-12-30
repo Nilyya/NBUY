@@ -10,5 +10,6 @@
         public string Url { get; set; }
         public int[] SelectedCategoryIds { get; set; }
         public List<CategoryViewModel> Categories { get; set; }
+
     }
 }

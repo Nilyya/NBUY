@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DiariesFoodApp.Data.Abstract
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Categories { get; }
         IProductRepository Products { get; }

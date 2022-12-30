@@ -8,24 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Sony\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\SABAH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Business\\DiariesFoodApp.Business.csproj",
+      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Business\\DiariesFoodApp.Business.csproj",
       "projectName": "DiariesFoodApp.Business",
-      "projectPath": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Business\\DiariesFoodApp.Business.csproj",
-      "packagesPath": "C:\\Users\\Sony\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Business\\obj\\",
+      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Business\\DiariesFoodApp.Business.csproj",
+      "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Business\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Sony\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

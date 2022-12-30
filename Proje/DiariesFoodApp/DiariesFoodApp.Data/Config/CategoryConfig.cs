@@ -69,8 +69,8 @@ namespace DiariesFoodApp.Data.Config
                 new Category { Id = 36, Name = "Alkolsüz", Description = "Alkolsüz", Url = "alkolsuz" },
                 new Category { Id = 37, Name = "Sarma ve Dolma", Description = "Sarma ve Dolma", Url = "sarma-ve-dolma" },
                 new Category { Id = 38, Name = "Tencere Yemekleri", Description = "Tencere Yemekleri", Url = "tencere-yemekleri" },
-                new Category { Id = 39, Name = "Zeytinyağlı", Description = "Zeytinyağlı yemekler", Url = "zeytinyaglı" },
-                new Category { Id = 40, Name = "Etli", Description = "Etli tencere yemekleri", Url = "etli" });
+                new Category { Id = 39, Name = "Zeytinyağlı", Description = "Zeytinyağlı yemekler", Url = "zeytinyaglı" });
+               
 
 
         }

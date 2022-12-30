@@ -1,17 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using ShoppingApi.API.Model;
 using ShoppingApi.Business.Abstract;
 
 namespace ShoppingApi.API.Controllers
 {
     [Route("api/[controller]")]
-    public class CategoriesController : Controller
+    [ApiController]
+    public class CategoriesController : ControllerBase
     {
         private readonly ICategoryService _categoryService;
         private readonly IProductService _productService;
@@ -21,9 +17,8 @@ namespace ShoppingApi.API.Controllers
             _categoryService = categoryService;
             _productService = productService;
         }
-
         [HttpGet]
-        public async Task<IActionResult> GetProducts()
+        public async Task<IActionResult> Index()
         {
             var categories = await _categoryService.GetAllAsync();
             List<CategoryDto> categoryDtos = new List<CategoryDto>();
@@ -33,14 +28,11 @@ namespace ShoppingApi.API.Controllers
                 {
                     Id = category.Id,
                     Name = category.Name,
-                    Description = category.Description,
-                    Url = category.Url
+                    Description = category.Description
                 });
             }
-
             return Ok(categoryDtos);
         }
-
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProductsByCategory(int id)
         {

@@ -9077,11 +9077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingAppClient\\ShoppingAppClient.csproj",
+      "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingAppClient\\ShoppingAppClient.csproj",
       "projectName": "ShoppingAppClient",
-      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingAppClient\\ShoppingAppClient.csproj",
+      "projectPath": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingAppClient\\ShoppingAppClient.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingAppClient\\obj\\",
+      "outputPath": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingAppClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",

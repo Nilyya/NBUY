@@ -940,6 +940,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.1",
+          "ShoppingApi.Core": "1.0.0",
           "ShoppingApi.Entity": "1.0.0"
         },
         "runtime": {

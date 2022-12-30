@@ -6,6 +6,7 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 	<ItemGroup>
+		<ProjectReference Include="..\ShoppingApi.Core\ShoppingApi.Core.csproj" />
 		<ProjectReference Include="..\ShoppingApi.Entity\ShoppingApi.Entity.csproj"></ProjectReference>
 	</ItemGroup>
 	<ItemGroup>

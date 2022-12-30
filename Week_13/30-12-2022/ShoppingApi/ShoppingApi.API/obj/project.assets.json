@@ -1572,6 +1572,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.1",
+          "ShoppingApi.Core": "1.0.0",
           "ShoppingApi.Entity": "1.0.0"
         },
         "compile": {
@@ -4564,11 +4565,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.API\\ShoppingApi.API.csproj",
+      "projectUniqueName": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.API\\ShoppingApi.API.csproj",
       "projectName": "ShoppingApi.API",
-      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.API\\ShoppingApi.API.csproj",
+      "projectPath": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.API\\ShoppingApi.API.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.API\\obj\\",
+      "outputPath": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4585,11 +4586,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.Business\\ShoppingApi.Business.csproj": {
-              "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.Business\\ShoppingApi.Business.csproj"
+            "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.Business\\ShoppingApi.Business.csproj": {
+              "projectPath": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.Business\\ShoppingApi.Business.csproj"
             },
-            "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.Core\\ShoppingApi.Core.csproj": {
-              "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_13\\30-12-2022\\ShoppingApi\\ShoppingApi.Core\\ShoppingApi.Core.csproj"
+            "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.Core\\ShoppingApi.Core.csproj": {
+              "projectPath": "C:\\Users\\SABAH\\Desktop\\29-12-2022\\ShoppingApi\\ShoppingApi.Core\\ShoppingApi.Core.csproj"
             }
           }
         }

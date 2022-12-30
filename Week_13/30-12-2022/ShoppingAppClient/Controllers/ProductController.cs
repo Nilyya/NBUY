@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+ï»¿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using ShoppingAppClient.Models;
 using System.Text;
@@ -47,7 +47,23 @@ namespace ShoppingAppClient.Controllers
                     var serializeProductViewModel = JsonConvert.SerializeObject(productViewModel);
                     StringContent stringContent = new StringContent(serializeProductViewModel, Encoding.UTF8, "application/json");
                     var result = await httpClient.PostAsync("http://localhost:5200/api/products", stringContent);
-
+                    if (result.IsSuccessStatusCode)
+                    {
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        #region kategoriletir
+                        var kategoriler = new List<CategoryViewModel>();
+                        using (var response=await httpClient.GetAsync("http://localhost:5200/api/categories"))
+                        {
+                            string apiResponse = await response.Content.ReadAsStringAsync();
+                            kategoriler = JsonConvert.DeserializeObject<List<CategoryViewModel>>(apiResponse);
+                        }
+                        productViewModel.Categories= kategoriler;
+                        #endregion
+                        return View(productViewModel);
+                    }
 
                 }
             }
@@ -56,7 +72,7 @@ namespace ShoppingAppClient.Controllers
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
-            #region ÜrünGetirme
+            #region ÃœrÃ¼nGetirme
             var urun = new ProductViewModel();
             using (var httpClient = new HttpClient())
             {
@@ -67,7 +83,7 @@ namespace ShoppingAppClient.Controllers
                 }
             }
             #endregion
-            #region KAtegori
+            #region Kategori
             var kategoriler = new List<CategoryViewModel>();
             using (var httpClient = new HttpClient())
             {
@@ -76,7 +92,9 @@ namespace ShoppingAppClient.Controllers
                     string apiResponse = await response.Content.ReadAsStringAsync();
                     kategoriler = JsonConvert.DeserializeObject<List<CategoryViewModel>>(apiResponse);
                 }
+               
             }
+           
             #endregion
             ProductViewModel productViewModel = new ProductViewModel
             {
@@ -85,11 +103,27 @@ namespace ShoppingAppClient.Controllers
                 Description = urun.Description,
                 Price = urun.Price,
                 ImageUrl = urun.ImageUrl,
-                Categories=kategoriler,
-                SelectedCategoryIds=urun.SelectedCategoryIds ?? new int[] {}
+                Categories = kategoriler,
+                SelectedCategoryIds = urun.SelectedCategoryIds ?? new int[] { }
 
             };
             return View(productViewModel);
         }
+        [HttpPost]
+        public async Task<IActionResult> Edit(ProductViewModel productViewModel)
+        {
+            if (productViewModel == null) { return NotFound(); }
+            if (ModelState.IsValid)
+            {
+                using (var httpClient = new HttpClient())
+                {
+                    var serializeProduct = JsonConvert.SerializeObject(productViewModel);
+                    StringContent stringContent = new StringContent(serializeProduct, Encoding.UTF8, "application/json");
+                    var result = await httpClient.PutAsync("http://localhost:5200/api/products", stringContent);
+                }
+            }
+            return RedirectToAction("Index");
+        }
+       
     }
 }
