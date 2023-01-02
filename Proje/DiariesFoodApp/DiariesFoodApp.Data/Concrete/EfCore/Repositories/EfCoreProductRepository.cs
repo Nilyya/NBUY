@@ -1,6 +1,7 @@
 ﻿using DiariesFoodApp.Data.Abstract;
 using DiariesFoodApp.Data.Concrete.EfCore.Context;
 using DiariesFoodApp.Entity.Concrete;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,18 +12,18 @@ namespace DiariesFoodApp.Data.Concrete.EfCore.Repositories
 {
     public class EfCoreProductRepository : EfCoreGenericRepository<Product>, IProductRepository
     {
-        public EfCoreProductRepository(DiariesContext context) : base(context)
+        public EfCoreProductRepository(DiariesAppContext context) : base(context)
         {
 
         }
-        private DiariesAppContext ShopAppContext
+        private DiariesAppContext DiariesAppContext
         {
             get { return _context as DiariesAppContext; }
         }
 
         public async Task<List<Product>> GetHomePageProductsAsync()
         {
-            return await ShopAppContext
+            return await DiariesAppContext
                 .Products
                 .Where(p => p.IsHome && p.IsApproved)
                 .ToListAsync();

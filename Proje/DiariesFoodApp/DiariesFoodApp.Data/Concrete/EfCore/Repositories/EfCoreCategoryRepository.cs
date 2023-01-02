@@ -1,4 +1,5 @@
 ﻿using DiariesFoodApp.Data.Abstract;
+using DiariesFoodApp.Data.Concrete.EfCore.Context;
 using DiariesFoodApp.Entity.Concrete;
 using System;
 using System.Collections.Generic;
@@ -10,10 +11,11 @@ namespace DiariesFoodApp.Data.Concrete.EfCore.Repositories
 {
     public class EfCoreCategoryRepository : EfCoreGenericRepository<Category>, ICategoryRepository
     {
-        public EfCoreCategoryRepository(DiariesContext context) : base(context)
+        public EfCoreCategoryRepository(DiariesAppContext context) : base(context)
         {
-          
+         
         }
+
         public Category GetByIdWithProducts()
         {
             throw new NotImplementedException();

@@ -1,4 +1,5 @@
 ﻿using DiariesFoodApp.Entity.Concrete;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace DiariesFoodApp.Data.Config
 {
+    public class ProductCategoryConfig : IEntityTypeConfiguration<ProductCategory>
+    { 
     public void Configure(EntityTypeBuilder<ProductCategory> builder)
     {
         builder.HasKey(pc => new { pc.ProductId, pc.CategoryId }); 
@@ -23,10 +26,8 @@ namespace DiariesFoodApp.Data.Config
             new ProductCategory { ProductId = 2, CategoryId = 3 },
             new ProductCategory { ProductId = 3, CategoryId = 1 },
             new ProductCategory { ProductId = 3, CategoryId = 5 },
-            new ProductCategory { ProductId = 3, CategoryId = 6 }
-           
+            new ProductCategory { ProductId = 3, CategoryId = 6 });
 
-       
-            );
     }
+}
 }

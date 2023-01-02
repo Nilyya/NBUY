@@ -1,4 +1,6 @@
 ﻿using DiariesFoodApp.Business.Abstract;
+using DiariesFoodApp.Data.Abstract;
+using DiariesFoodApp.Entity.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,10 +18,27 @@ namespace DiariesFoodApp.Business.Concrete
             _unitOfWork = unitOfWork;
         }
 
-        public Task CreateAsync(Product product)
+            #region Generics
+        public async Task<Product> GetByIdAsync(int id)
+        {
+            return await _unitOfWork.Products.GetByIdAsync(id);
+        }
+
+        public async Task<List<Product>> GetAllAsync()
+        {
+            return await _unitOfWork.Products.GetAllAsync();
+        }
+
+        public async Task CreateAsync(Product product)
         {
             await _unitOfWork.Products.CreateAsync(product);
             await _unitOfWork.SaveAsync();
+        }
+
+        public void Update(Product product)
+        {
+            _unitOfWork.Products.Update(product);
+            _unitOfWork.Save();
         }
 
         public void Delete(Product product)
@@ -27,18 +46,10 @@ namespace DiariesFoodApp.Business.Concrete
             _unitOfWork.Products.Delete(product);
             _unitOfWork.Save();
         }
+        #endregion
 
-        public Task<List<Product>> GetAllAsync()
-        {
-            return await _unitOfWork.Products.GetAllAsync();
-        }
-
-        public Task<Product> GetByIdAsync(int id)
-        {
-            return await _unitOfWork.Products.GetByIdAsync(id);
-        }
-
-        public Task<List<Product>> GetHomePageProductsAsync()
+        #region Products
+        public async Task<List<Product>> GetHomePageProductsAsync()
         {
             return await _unitOfWork.Products.GetHomePageProductsAsync();
         }
@@ -47,11 +58,6 @@ namespace DiariesFoodApp.Business.Concrete
         {
             throw new NotImplementedException();
         }
-
-        public void Update(Product product)
-        {
-            _unitOfWork.Products.Update(product);
-            _unitOfWork.Save();
-        }
+        #endregion
     }
 }

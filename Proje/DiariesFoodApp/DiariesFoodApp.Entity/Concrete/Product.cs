@@ -10,6 +10,7 @@ namespace DiariesFoodApp.Entity.Concrete
     public class Product : IEntityBase
     {
         public int Id { get; set; }
+        public int CatId { get; set; }
         public string Name { get; set; }
         public string Clue { get; set; }
         public string Recipe { get; set; }
@@ -19,5 +20,7 @@ namespace DiariesFoodApp.Entity.Concrete
         public string Service { get; set;}
         public string ImageUrl { get; set; }
         public string Url { get; set; }
+        public bool IsHome { get; set; }
+        public bool IsApproved { get; set; }
     }
 }

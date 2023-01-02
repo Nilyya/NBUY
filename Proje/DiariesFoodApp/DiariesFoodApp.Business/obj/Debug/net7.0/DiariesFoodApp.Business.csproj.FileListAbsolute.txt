@@ -8,3 +8,17 @@ C:\Users\SABAH\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Busines
 C:\Users\SABAH\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\DiariesFoodApp.Business.AssemblyInfoInputs.cache
 C:\Users\SABAH\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\DiariesFoodApp.Business.AssemblyInfo.cs
 C:\Users\SABAH\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\DiariesFoodApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\bin\Debug\net7.0\DiariesFoodApp.Business.deps.json
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\bin\Debug\net7.0\DiariesFoodApp.Business.dll
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\bin\Debug\net7.0\DiariesFoodApp.Business.pdb
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\bin\Debug\net7.0\DiariesFoodApp.Data.dll
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\bin\Debug\net7.0\DiariesFoodApp.Entity.dll
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\bin\Debug\net7.0\DiariesFoodApp.Data.pdb
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\bin\Debug\net7.0\DiariesFoodApp.Entity.pdb
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\DiariesFoodApp.Business.csproj.CopyComplete
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\DiariesFoodApp.Business.dll
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\refint\DiariesFoodApp.Business.dll
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\DiariesFoodApp.Business.pdb
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\ref\DiariesFoodApp.Business.dll
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\bin\Debug\net7.0\DiariesFoodApp.Business.runtimeconfig.json
+C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Business\obj\Debug\net7.0\DiariesFoodApp.Business.genruntimeconfig.cache

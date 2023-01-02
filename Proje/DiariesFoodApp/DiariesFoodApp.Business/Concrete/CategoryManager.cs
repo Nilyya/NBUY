@@ -1,4 +1,6 @@
 ﻿using DiariesFoodApp.Business.Abstract;
+using DiariesFoodApp.Data.Abstract;
+using DiariesFoodApp.Entity.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,24 +20,22 @@ namespace DiariesFoodApp.Business.Concrete
 
         public Task CreateAsync(Category category)
         {
-            await _unitOfWork.Categories.CreateAsync(category);
-            await _unitOfWork.SaveAsync();
+            throw new NotImplementedException();
         }
 
         public void Delete(Category category)
         {
-            _unitOfWork.Categories.Delete(category);
-            _unitOfWork.Save();
+            throw new NotImplementedException();
         }
 
         public Task<List<Category>> GetAllAsync()
         {
-            return await _unitOfWork.Categories.GetAllAsync();
+            throw new NotImplementedException();
         }
 
         public Task<Category> GetByIdAsync(int id)
         {
-            return await _unitOfWork.Categories.GetByIdAsync(id);
+            throw new NotImplementedException();
         }
 
         public Category GetByIdWithProducts()
@@ -45,8 +45,7 @@ namespace DiariesFoodApp.Business.Concrete
 
         public void Update(Category category)
         {
-            _unitOfWork.Categories.Update(category);
-            _unitOfWork.Save();
+            throw new NotImplementedException();
         }
     }
 }

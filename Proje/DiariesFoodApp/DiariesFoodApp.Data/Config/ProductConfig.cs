@@ -32,7 +32,7 @@ namespace DiariesFoodApp.Data.Config
             builder.Property(p => p.PreparationTime)
               .IsRequired();
 
-            builder.Property(p => p.BakingTime)
+            builder.Property(p => p.BakingTime);
               
 
             builder.Property(p => p.Service)

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Data\\DiariesFoodApp.Data.csproj": {}
+    "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Data\\DiariesFoodApp.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Data\\DiariesFoodApp.Data.csproj": {
+    "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Data\\DiariesFoodApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Data\\DiariesFoodApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Data\\DiariesFoodApp.Data.csproj",
         "projectName": "DiariesFoodApp.Data",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Data\\DiariesFoodApp.Data.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Data\\obj\\",
+        "projectPath": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Data\\DiariesFoodApp.Data.csproj",
+        "packagesPath": "C:\\Users\\Sony\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Entity\\DiariesFoodApp.Entity.csproj": {
-                "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Entity\\DiariesFoodApp.Entity.csproj"
+              "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Entity\\DiariesFoodApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Entity\\DiariesFoodApp.Entity.csproj"
               }
             }
           }
@@ -51,6 +56,12 @@
               "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.1, )"
             }
@@ -75,17 +86,21 @@
         }
       }
     },
-    "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Entity\\DiariesFoodApp.Entity.csproj": {
+    "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Entity\\DiariesFoodApp.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Entity\\DiariesFoodApp.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Entity\\DiariesFoodApp.Entity.csproj",
         "projectName": "DiariesFoodApp.Entity",
-        "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Entity\\DiariesFoodApp.Entity.csproj",
-        "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Entity\\DiariesFoodApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\Sony\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Proje\\DiariesFoodApp\\DiariesFoodApp.Entity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,6 +108,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -110,6 +126,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
