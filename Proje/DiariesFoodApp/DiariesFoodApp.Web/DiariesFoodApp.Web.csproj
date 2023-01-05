@@ -22,4 +22,8 @@
     <ProjectReference Include="..\DiariesFoodApp.Data\DiariesFoodApp.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Admin\Views\" />
+  </ItemGroup>
+
 </Project>

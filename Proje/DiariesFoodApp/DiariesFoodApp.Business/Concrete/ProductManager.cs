@@ -1,11 +1,6 @@
 ﻿using DiariesFoodApp.Business.Abstract;
 using DiariesFoodApp.Data.Abstract;
 using DiariesFoodApp.Entity.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DiariesFoodApp.Business.Concrete
 {
@@ -18,10 +13,10 @@ namespace DiariesFoodApp.Business.Concrete
             _unitOfWork = unitOfWork;
         }
 
-            #region Generics
-        public async Task<Product> GetByIdAsync(int id)
+        public async Task CreateAsync(Product product)
         {
-            return await _unitOfWork.Products.GetByIdAsync(id);
+            await _unitOfWork.Products.CreateAsync(product);
+            await _unitOfWork.SaveAsync();
         }
 
         public async Task<List<Product>> GetAllAsync()
@@ -29,10 +24,15 @@ namespace DiariesFoodApp.Business.Concrete
             return await _unitOfWork.Products.GetAllAsync();
         }
 
-        public async Task CreateAsync(Product product)
+        public async Task<Product> GetByIdAsync(int id)
         {
-            await _unitOfWork.Products.CreateAsync(product);
-            await _unitOfWork.SaveAsync();
+            return await _unitOfWork.Products.GetByIdAsync(id);
+        }
+
+        public void Delete(Product product)
+        {
+            _unitOfWork.Products.Delete(product);
+            _unitOfWork.Save();
         }
 
         public void Update(Product product)
@@ -41,23 +41,85 @@ namespace DiariesFoodApp.Business.Concrete
             _unitOfWork.Save();
         }
 
-        public void Delete(Product product)
+        public async Task<List<Product>> GetProductsByCategoryAsync(string category)
         {
-            _unitOfWork.Products.Delete(product);
-            _unitOfWork.Save();
+            return await _unitOfWork.Products.GetProductsByCategoryAsync(category);
         }
-        #endregion
 
-        #region Products
         public async Task<List<Product>> GetHomePageProductsAsync()
         {
             return await _unitOfWork.Products.GetHomePageProductsAsync();
         }
 
-        public List<Product> GetProductsByCategory()
+        public async Task<Product> GetProductDetailsByUrlAsync(string productUrl)
+        {
+            return await _unitOfWork.Products.GetProductDetailsByUrlAsync(productUrl);
+
+        }
+
+        public async Task<List<Product>> GetProductsWithCategories()
+        {
+            return await _unitOfWork.Products.GetProductsWithCategories();
+        }
+
+        // public async Task CreateProductAsync(Product product, int[] selectedCategoryIds)
+        // {
+        //     await _unitOfWork.Products.CreateProductAsync(product, selectedCategoryIds);
+        // }
+
+        // public async Task UpdateProductAsync(Product product, int[] selectedCategoryIds)
+        // {
+        //     await _unitOfWork.Products.UpdateProductAsync(product, selectedCategoryIds);
+        // }
+
+        public async Task<Product> GetProductWithCategories(int id)
+        {
+            return await _unitOfWork.Products.GetProductWithCategories(id);
+        }
+
+        public async Task UpdateIsHomeAsync(Product product)
+        {
+            await _unitOfWork.Products.UpdateIsHomeAsync(product);
+        }
+
+        public async Task UpdateIsApprovedAsync(Product product)
+        {
+            await _unitOfWork.Products.UpdateIsApprovedAsync(product);
+        }
+
+        public Task CreateFoodAsync(Product product, int[] selectedCategoryIds)
         {
             throw new NotImplementedException();
         }
-        #endregion
+
+        public Task UpdateFoodAsync(Product product, int[] selectedCategoryIds)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Product>> GetFoodsByCategoryAsync(string category)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Product>> GetHomePageFoodsAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Product> GetFoodDetailsByUrlAsync(string foodUrl)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<Product>> GetFoodsWithCategories()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Product> GetFoodWithCategories(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

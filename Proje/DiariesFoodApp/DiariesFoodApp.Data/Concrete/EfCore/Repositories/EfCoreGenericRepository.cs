@@ -8,9 +8,7 @@ using System.Threading.Tasks;
 
 namespace DiariesFoodApp.Data.Concrete.EfCore.Repositories
 {
-    public class EfCoreGenericRepository<TEntity> : IRepository<TEntity>
-     where TEntity : class,
-     new()
+    public class EfCoreGenericRepository<TEntity> : IRepository<TEntity> where TEntity : class, new()
     {
         protected readonly DbContext _context;
 
@@ -42,7 +40,7 @@ namespace DiariesFoodApp.Data.Concrete.EfCore.Repositories
         public void Update(TEntity entity)
         {
             _context.Set<TEntity>().Update(entity);
-            //_context.Entry(entity).State=EntityState.Modified;
+            
         }
     }
     }

@@ -1,0 +1,19 @@
+﻿@using DiariesFoodApp.Web.Models.Dtos
+@model List<ProductDto>
+<div class="text-center">
+    <h1 class="display-4">Yemek Tarifleri</h1>
+</div>
+<div class="mt-4 row">
+
+    @await Component.InvokeAsync("Categories")
+</div>
+
+@* <div class="col-9">*@
+<div class="row">
+    @foreach (var foodDto in Model)
+    {
+        <div class="col-md-3">
+            @await Html.PartialAsync("_ProductPartial", productDto)
+        </div>
+    }
+</div>

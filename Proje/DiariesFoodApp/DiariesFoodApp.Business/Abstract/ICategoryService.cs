@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DiariesFoodApp.Entity.Concrete;
 
 namespace DiariesFoodApp.Business.Abstract
 {
@@ -14,6 +15,7 @@ namespace DiariesFoodApp.Business.Abstract
         Task CreateAsync(Category category);
         void Update(Category category);
         void Delete(Category category);
-        Category GetByIdWithProducts();
+        Category GetByIdWithFoods();
+
     }
 }

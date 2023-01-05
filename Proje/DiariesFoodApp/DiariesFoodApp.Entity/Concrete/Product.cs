@@ -22,5 +22,6 @@ namespace DiariesFoodApp.Entity.Concrete
         public string Url { get; set; }
         public bool IsHome { get; set; }
         public bool IsApproved { get; set; }
+        public List<ProductCategory> ProductCategories { get; set; }
     }
 }

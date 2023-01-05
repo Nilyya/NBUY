@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ShoppingApp.Entity")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DiariesFoodApp.Entity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ShoppingApp.Entity")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ShoppingApp.Entity")]
+[assembly: System.Reflection.AssemblyProductAttribute("DiariesFoodApp.Entity")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DiariesFoodApp.Entity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
