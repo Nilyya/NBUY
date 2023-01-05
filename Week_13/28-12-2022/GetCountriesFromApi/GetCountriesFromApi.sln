@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetCountriesFromApi", "GetCountriesFromApi.csproj", "{3EB07259-607A-45B1-9A27-270268141391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EB07259-607A-45B1-9A27-270268141391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB07259-607A-45B1-9A27-270268141391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB07259-607A-45B1-9A27-270268141391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB07259-607A-45B1-9A27-270268141391}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E40B781B-25A5-4F3D-B1E7-848651666677}
+	EndGlobalSection
+EndGlobal
