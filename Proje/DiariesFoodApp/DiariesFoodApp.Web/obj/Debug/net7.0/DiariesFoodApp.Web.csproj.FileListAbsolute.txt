@@ -1,8 +1,0 @@
-C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Web\obj\Debug\net7.0\DiariesFoodApp.Web.csproj.AssemblyReference.cache
-C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Web\obj\Debug\net7.0\DiariesFoodApp.Web.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Web\obj\Debug\net7.0\DiariesFoodApp.Web.AssemblyInfoInputs.cache
-C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Web\obj\Debug\net7.0\DiariesFoodApp.Web.AssemblyInfo.cs
-C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Web\obj\Debug\net7.0\DiariesFoodApp.Web.csproj.CoreCompileInputs.cache
-C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Web\obj\Debug\net7.0\DiariesFoodApp.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Web\obj\Debug\net7.0\DiariesFoodApp.Web.RazorAssemblyInfo.cache
-C:\Users\Sony\Documents\GitHub\NBUY\Proje\DiariesFoodApp\DiariesFoodApp.Web\obj\Debug\net7.0\DiariesFoodApp.Web.RazorAssemblyInfo.cs
