@@ -6,19 +6,22 @@
 <table class="table table-bordered">
     <thead>
         <tr>
-            <td>Ülke</td>
-            <td>Başkent</td>
-            <td>Bayrak</td>
+            <th>Ülke</th>
+            <th>Başkent</th>
+            <th>Bayrak</th>
+            <th>Dil</th>
+            <th>Araç Trafiği</th>
+            <th>Bayrak</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var country in Model)
         {
            <tr>
-                <td>@country.name</td>
-                <td>@country.capital</td>
+                <td>@country.Name</td>
+                <td>@country.Capital</td>
                 <td>
-                    <img src="@country.flag" width="200" />
+                    <img src="@country.Flag" width="200" />
                 </td>
            </tr> 
         }
