@@ -1168,19 +1168,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SABAH\\.nuget\\packages\\": {}
+    "C:\\Users\\Sony\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\09-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Week_10\\09-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
       "projectName": "ShoppingApp.Business",
-      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\09-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
-      "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\09-12-2022\\ShoppingApp\\ShoppingApp.Business\\obj\\",
+      "projectPath": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Week_10\\09-12-2022\\ShoppingApp\\ShoppingApp.Business\\ShoppingApp.Business.csproj",
+      "packagesPath": "C:\\Users\\Sony\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Week_10\\09-12-2022\\ShoppingApp\\ShoppingApp.Business\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sony\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1188,14 +1193,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\09-12-2022\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj": {
-              "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_10\\09-12-2022\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj"
+            "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Week_10\\09-12-2022\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj": {
+              "projectPath": "C:\\Users\\Sony\\Documents\\GitHub\\NBUY\\Week_10\\09-12-2022\\ShoppingApp\\ShoppingApp.Data\\ShoppingApp.Data.csproj"
             }
           }
         }
