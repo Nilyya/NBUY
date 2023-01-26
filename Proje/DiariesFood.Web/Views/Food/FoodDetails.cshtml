@@ -1,0 +1,58 @@
+﻿@using DiariesFood.Web.Models.Dtos
+@model FoodDetailsDto
+
+<div class="row mt-3">
+    <div class="col-12 border border-danger">
+        <div class="">
+            <div class="card" style="width:100%;">
+                <img src="/images/@Model.ImageUrl" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <div class="row">
+                        <div>
+                        <form asp-controller="Favorite"
+                              asp-action="AddToFavorite"
+                              method="post">
+                            <input type="hidden" name="foodId" value="@Model.Id" />
+                            <input type="hidden" name="favortiteNumber" value="1" />
+                                <button type="submit" class="btn btn-success btn-sm m-2 text-end"><i class="fa-regular fa-heart"></i></button>
+
+                        </form>
+                        </div>
+                        <div class="col-8 border border-light">
+                            <div class="mt-1">
+                                <h2 class="card-title fs-1 text-secondary">@Model.Name</h2>
+                                <br />
+                                <label class="fs-5 fw-bold">@Model.Name Tarifi </label>
+                                <p class="card-text">@Html.Raw(Model.Repice)</p>
+                                <label class="fs-5 fw-bold">Hazırlanış </label>
+                                <p class="card-text">@Html.Raw(Model.Preparation)</p>
+                                <label class="fs-5 fw-bold">Püf Nokta </label>
+                                <p class="card-text">@Html.Raw(Model.Clue)</p>
+
+                            </div>
+                        </div>
+                        <div class="col-4 border">
+                            <div class="mt-2">
+                                <label class="fs-5 fw-bold text-danger">Kaç Kişilik</label>
+                                <p class="card-text">@Html.Raw(Model.Service)</p>
+                                <label class="fw-bold text-danger">Hazırlanma Süresi</label>
+                                <p class="card-text">@Model.PreparationTime</p>
+                                <label class="fw-bold text-danger">Pişirme Süresi</label>
+                                <p class="card-text">@Model.BakingTime</p>
+                                <div class="justify-content-center">
+                                    <h6 class="text-danger fw-bold">Değerlendirme</h6>
+                                    <button type="submit" class="btn btn-success btn-sm text-start"><i class="fa-regular fa-thumbs-up"></i></button>
+                                    <button type="submit" class="btn btn-success btn-sm text-end"><i class="fa-regular fa-thumbs-down"></i></button>
+                                
+                                </div>    
+                                <div>
+                                    <h6 class="text-danger fw-bold mt-1">Yorum Yap</h6>
+                                    <button type="submit" class="btn btn-success btn-lg text-white mt-2">Yorumlar</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

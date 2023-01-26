@@ -1,0 +1,20 @@
+﻿@using DiariesFood.Web.Models.Dtos
+@model List<FoodDto>
+
+<div class="mt-4 row">
+    <div class="col-3">      
+        @await Component.InvokeAsync("Categories")  
+    </div>
+     <hr />
+       <div class="col">
+        <div class="row">
+            @foreach (var foodDto in Model)
+            {
+                <div class="col-md-3 m-2">
+                    @await Html.PartialAsync("_FoodPartial", foodDto)
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,54 @@
+﻿@using DiariesFood.Web.Admin.Models.Dtos
+@model CategoryListDto
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="d-flex bd-highlight">
+    <div class="p-2 flex-grow-1 bd-highlight mt-1">
+        <h1 class="text-success fs-2">Kategori Listesi</h1>
+    </div>
+    <div class="p-2 bd-highlight mt-1">
+        <a class="btn btn-outline-secondary"
+           asp-area="Admin"
+           asp-controller="Category"
+           asp-action="Create">Kategori Ekle</a>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col d-flex flex-row">
+        <table class="table table-warning table-bordered">
+            <thead>
+                <tr>
+                    <th>Kategori</th>
+                    <th>Açıklama</th>
+                    <th>İşlemler</th>  
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var category in Model.Categories)
+                {                  
+                    <tr>
+                        <td class="">@category.Name</td>                       
+                        <td class="table-text">@category.Description</td>
+                        <td>
+                        <a class="btn btn-outline-success"
+                       asp-controller="Category"
+                       asp-action="Edit"
+                       asp-area="Admin"
+                       asp-route-id="@category.Id">Düzenle</a>
+
+                        <a class="btn btn-outline-danger"
+                       asp-controller="Category"
+                       asp-action="Delete"
+                       asp-area="Admin"
+                       asp-route-id="@category.Id">Sil</a>
+                        </td>
+                    </tr>
+                }                   
+            </tbody>   
+            </table>
+    </div>
+</div>

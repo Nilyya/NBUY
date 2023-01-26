@@ -1,0 +1,85 @@
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.AssemblyReference.cache
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.AssemblyInfoInputs.cache
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.AssemblyInfo.cs
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.CoreCompileInputs.cache
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.deps.json
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.runtimeconfig.json
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.dll
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.pdb
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Entity.dll
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Entity.pdb
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.CopyComplete
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.dll
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\obj\Debug\net7.0\refint\DiariesFood.Data.dll
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.pdb
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.genruntimeconfig.cache
+C:\Users\Sony\Documents\Alıstırma\DiariesFood.Data\obj\Debug\net7.0\ref\DiariesFood.Data.dll
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.deps.json
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.runtimeconfig.json
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.dll
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.pdb
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Entity.dll
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Entity.pdb
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.CopyComplete
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.dll
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\obj\Debug\net7.0\refint\DiariesFood.Data.dll
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.pdb
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\Proje\DiariesFood.Data\obj\Debug\net7.0\ref\DiariesFood.Data.dll
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.deps.json
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.dll
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Entity.pdb
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.CopyComplete
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.dll
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\obj\Debug\net7.0\refint\DiariesFood.Data.dll
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\ProjeMigrations\Proje\DiariesFood.Data\obj\Debug\net7.0\ref\DiariesFood.Data.dll
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.dll
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\obj\Debug\net7.0\refint\DiariesFood.Data.dll
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.deps.json
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.runtimeconfig.json
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.dll
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.pdb
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Entity.dll
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Entity.pdb
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.CopyComplete
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.genruntimeconfig.cache
+C:\Users\SABAH\Documents\GitHub\NbuyEkim_Aylin_Aydemir_Odevler\1234\Proje\DiariesFood.Data\obj\Debug\net7.0\ref\DiariesFood.Data.dll
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.deps.json
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.runtimeconfig.json
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.dll
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Data.pdb
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Entity.dll
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\bin\Debug\net7.0\DiariesFood.Entity.pdb
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.csproj.CopyComplete
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.dll
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\obj\Debug\net7.0\refint\DiariesFood.Data.dll
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.pdb
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\obj\Debug\net7.0\DiariesFood.Data.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\Search deneme\Proje\DiariesFood.Data\obj\Debug\net7.0\ref\DiariesFood.Data.dll

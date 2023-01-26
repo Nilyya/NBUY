@@ -1,0 +1,45 @@
+﻿@using DiariesFood.Web.Models.Dtos
+@model FavoriteDto
+<h6 class="display-6 mt-2">Favoriler</h6>
+<hr />
+@if (Model.FavoriteItems.Count == 0)
+{
+    <div class="row">
+        <div class="alert alert-warning">
+            Favoriniz bulunmamaktadır.
+        </div>
+    </div>
+}
+else
+{
+    <div class="row">
+        <div class="col-8"> 
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th>Resim</th>
+                        <th>Ürün</th> 
+                        <th></th>
+                    
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var favItem in Model.FavoriteItems)
+                    {
+                        <tr>
+                            <td>
+                                <img src="~/images/@favItem.ImageUrl" width="50" />
+                            </td>
+                            <td>@favItem.FoodName</td>
+                            <td>
+                                <a class="btn btn-sm m-2 text-black"
+                                   ><i class="fa-solid fa-pen-to-square"></i>  Tarif
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+   </div>
+}
